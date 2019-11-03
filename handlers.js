@@ -1,7 +1,7 @@
 const fs = require('fs');
 const faker = require('faker');
 
-export const signup = (req, res) => {
+const signup = (req, res) => {
     fs.readFile('data/users.json', (err, data) => {
         const users = JSON.parse(data);
         const { first_name, last_name, email, password } = req.body;
@@ -10,42 +10,49 @@ export const signup = (req, res) => {
             role: 'client',
             id: faker.random.number()
         };
-        users.push(user);
-        const writeData = JSON.stringify(users, null, 2);
-        fs.writeFile('data/users.json', writeData, console.log);
-        res.send({ success: true, user });
+        let exists = false;
+        for (let i = 0; i < users.length; i++) {
+            exists = users[i].email === email;
+            if (exists) {
+                res.send({error: 'Email Already Exists.'});
+                break;
+            }
+        }
+        if (!exists) {
+            users.push(user);
+            const writeData = JSON.stringify(users, null, 2);
+            fs.writeFile('data/users.json', writeData, console.log);
+            res.send({success: true, user});
+        }
     });
 };
 
-export const login = (req, res) => {
-    let error = '';
+const login = (req, res) => {
+    const response = {};
     fs.readFile('data/users.json', (err, data) => {
         if (err) throw err;
         const users = JSON.parse(data);
         const { email, password } = req.body;
-        users.map( ( user ) => {
+        users.map( user => {
            if ( email === user.email) {
                if (password === user.password) {
-                   const response = {
-                       user, success: true
-                   };
-                   error = '';
-                   res.send(response);
+                   response.success = true;
+                   response.user = user;
                    return null;
                } else {
-                   error = 'Invalid Email/Password';
+                   response.error = 'Invalid Email/Password';
+                   return null;
                }
-           } else {
-               error = 'Email Not Found.';
            }
         });
+        if (!response.user) {
+            response.error = response.error || 'Email Not Found.';
+        }
+        res.send(response);
     });
-    if (error) {
-        res.send({ error });
-    }
 };
 
-export const get_inspection = (req, res) => {
+const get_inspection = (req, res) => {
     fs.readFile('data/inspections_list.json', (err, data) => {
         if (err) throw err;
         const inspections = JSON.parse(data);
@@ -65,7 +72,7 @@ export const get_inspection = (req, res) => {
     });
 };
 
-export const post_inspection = (req, res) => {
+const post_inspection = (req, res) => {
     fs.readFile('data/inspections_list.json', (err, data) => {
         if (err) throw err;
         const { type, location, date, dueDate, status } = req.body;
@@ -86,7 +93,7 @@ export const post_inspection = (req, res) => {
     });
 };
 
-export const get_list_type = (req, res) => {
+const get_list_type = (req, res) => {
     fs.readFile('data/inspections_list.json', (err, data) => {
         const { role, id, list_type } = req.params;
         const inspections = JSON.parse(data);
@@ -113,4 +120,7 @@ export const get_list_type = (req, res) => {
 
         res.send(response);
     });
+};
+module.exports = {
+    login, post_inspection, get_list_type, get_inspection, signup
 };

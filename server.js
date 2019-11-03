@@ -1,8 +1,10 @@
-import {
+const {
     get_inspection,
     get_list_type,
-    post_inspection
-} from "./handlers";
+    post_inspection,
+    login,
+    signup,
+} = require("./handlers");
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -22,6 +24,8 @@ app.get('/inspections', (req, res) => {
 app.get('/accounts', (req, res) => {
     res.send(accounts);
 });
+app.post('/login', login);
+app.post('/signup', signup);
 app.get('/inspection/:inspection_id', get_inspection);
 app.post('/inspection', post_inspection);
 app.get('/:role/:id/inspections-list/:list_type', get_list_type);
