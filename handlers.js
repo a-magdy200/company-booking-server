@@ -33,6 +33,7 @@ const login = (req, res) => {
         if (err) throw err;
         const users = JSON.parse(data);
         const { email, password } = req.body;
+        console.log(req.body);
         users.map( user => {
            if ( email === user.email) {
                if (password === user.password) {
