@@ -177,7 +177,28 @@ const scheduleInspection = (req, res) => {
         });
     });
 };
+const submitReport = (req, res) => {
+    const { id, report } = req.body;
+    fs.readFile('data/inspections_list.json', (err, data) => {
+        if (err) throw err;
+        const inspections = JSON.parse(data);
+        const inspectionID = parseInt(id, 10);
+        for (let i = 0; i < inspections.length; i++) {
+            if (inspections[i].id === inspectionID) {
+                inspections[i].report = report;
+                inspections[i].status = 'completed';
+                break;
+            }
+        }
+        const writeData = JSON.stringify(inspections, null, 2);
+        fs.writeFile('data/inspections_list.json', writeData, err => {
+            if (err) throw err;
+            res.send({ success: true });
+        });
+    });
+};
 module.exports = {
+    submitReport,
     login,
     post_inspection,
     get_client_list_type,

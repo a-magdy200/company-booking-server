@@ -5,7 +5,8 @@ const {
     post_inspection,
     login,
     signup,
-    scheduleInspection
+    scheduleInspection,
+    submitReport
 } = require("./handlers");
 
 const express = require('express');
@@ -43,5 +44,6 @@ app.post('/inspection', post_inspection);
 app.get('/client/:id/inspections-list/:list_type', get_client_list_type);
 app.get('/inspector/:id/inspections-list/:list_type/:type', get_inspector_list_type);
 app.post('/scheduleInspection', scheduleInspection);
+app.post('/submitReport', submitReport);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
