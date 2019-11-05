@@ -33,7 +33,6 @@ const login = (req, res) => {
         if (err) throw err;
         const users = JSON.parse(data);
         const { email, password } = req.body;
-        console.log(req.body);
         users.map( user => {
            if ( email === user.email) {
                if (password === user.password) {
@@ -79,10 +78,12 @@ const post_inspection = (req, res) => {
         const {
             type, location, date, dueDate,
             status, first_name, last_name, email,
-            phone
+            phone, client_id
         } = req.body;
         const inspection = {
             type, location, date, dueDate, status,
+            client_id,
+            id: faker.random.number(),
             contactDetails: {
                 first_name, last_name, email, phone
             }
