@@ -46,9 +46,20 @@ for ( let i = 0; i < 100; i++ ) {
         id: faker.random.number(),
         type: types[Math.floor(Math.random() * types.length)],
         status,
-        client_id
+        client_id,
+        contactDetails: {}
     };
-
+    let contactDetails = {};
+    accounts.map( account => {
+        if (account.id === client_id) {
+            let { email, first_name, last_name } = account;
+            contactDetails = {
+                email, first_name, last_name,
+                phone: faker.phone.phoneNumberFormat()
+            }
+        }
+    });
+    inspection.contactDetails = contactDetails;
     if (schedule > 0.5) {
         inspection.schedule = faker.date.future();
         let inspector;

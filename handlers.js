@@ -76,9 +76,16 @@ const get_inspection = (req, res) => {
 const post_inspection = (req, res) => {
     fs.readFile('data/inspections_list.json', (err, data) => {
         if (err) throw err;
-        const { type, location, date, dueDate, status } = req.body;
+        const {
+            type, location, date, dueDate,
+            status, first_name, last_name, email,
+            phone
+        } = req.body;
         const inspection = {
-            type, location, date, dueDate, status
+            type, location, date, dueDate, status,
+            contactDetails: {
+                first_name, last_name, email, phone
+            }
         };
 
         const inspections = JSON.parse(data);
