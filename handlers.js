@@ -76,13 +76,14 @@ const post_inspection = (req, res) => {
     fs.readFile('data/inspections_list.json', (err, data) => {
         if (err) throw err;
         const {
-            type, location, date, dueDate,
+            type, location, date, dueDate, template,
             status, first_name, last_name, email,
             phone, client_id
         } = req.body;
         const inspection = {
-            type, location, date, dueDate, status,
+            type, location, date, dueDate, template,
             client_id,
+            status: status || 'normal',
             id: faker.random.number(),
             contactDetails: {
                 first_name, last_name, email, phone
