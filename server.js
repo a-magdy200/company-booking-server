@@ -21,11 +21,12 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
-
+app.use(express.static('public'));
 let accounts = [];
 let inspections = [];
 app.get('/', (req, res) => {
-    res.send('Working...');
+    // res.send('Working...');
+    res.sendFile(__dirname + '/public/index.html');
 });
 app.get('/inspections', (req, res) => {
     const data = JSON.stringify(inspections, null, 2);
@@ -48,4 +49,5 @@ app.get('/inspector/:id/inspections-list/:list_type/:type', get_inspector_list_t
 app.post('/scheduleInspection', scheduleInspection);
 app.post('/submitReport', submitReport);
 let servePort = (process.env.PORT || port);
+
 app.listen(servePort, () => console.log(`Example app listening on port ${servePort}!`));
