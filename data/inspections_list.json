@@ -1,1133 +1,1225 @@
 [
   {
-    "type": "aut",
-    "location": "1804 Addison Crossing Suite 206, East Vellaland",
-    "date": "2019-11-05T18:41:24.348Z",
-    "dueDate": "2019-11-14T02:04:25.378Z",
-    "id": 51892,
+    "location": "812 Joel Orchard Suite 582, Jakubowskibury",
+    "date": "2020-05-09T05:46:50.049Z",
+    "dueDate": "2020-05-16T15:22:50.885Z",
+    "id": 72574,
+    "type": "Kids",
+    "status": "important",
+    "client_id": 3
+  },
+  {
+    "location": "843 Botsford Dale Suite 326, Enriquehaven",
+    "date": "2020-07-04T09:20:26.485Z",
+    "dueDate": "2020-08-30T01:00:40.606Z",
+    "id": 84484,
+    "type": "Sports",
+    "status": "urgent",
+    "client_id": 10,
+    "schedule": "2020-07-03T19:47:54.403Z",
+    "inspector": {
+      "first_name": "Cedrick",
+      "last_name": "Bednar",
+      "email": "Ivy.Kunde@gmail.com",
+      "id": 11
+    }
+  },
+  {
+    "location": "06173 Barton Estates Apt. 913, Rosieborough",
+    "date": "2020-07-21T02:28:07.777Z",
+    "dueDate": "2020-10-15T11:47:40.918Z",
+    "id": 44709,
+    "type": "Home",
+    "status": "completed",
+    "client_id": 7,
+    "report": {
+      "comment": "Officia aut vel aperiam accusamus corrupti nisi voluptatum."
+    }
+  },
+  {
+    "location": "856 Oral Station Apt. 795, North Pattie",
+    "date": "2020-02-08T08:21:18.947Z",
+    "dueDate": "2019-12-17T12:05:49.306Z",
+    "id": 97898,
+    "type": "Music",
+    "status": "urgent",
+    "client_id": 4
+  },
+  {
+    "location": "41944 Ova Path Apt. 387, Robelport",
+    "date": "2020-10-14T21:53:13.845Z",
+    "dueDate": "2020-11-03T14:38:24.563Z",
+    "id": 83459,
+    "type": "Kids",
+    "status": "normal",
+    "client_id": 10
+  },
+  {
+    "location": "2039 Keagan Isle Apt. 794, Brekkeview",
+    "date": "2020-07-21T20:16:47.244Z",
+    "dueDate": "2020-09-02T14:25:27.052Z",
+    "id": 72754,
+    "type": "Kids",
+    "status": "normal",
+    "client_id": 1,
+    "schedule": "2020-08-13T08:02:58.283Z"
+  },
+  {
+    "location": "157 Angelita Summit Apt. 723, Lake Stephanieborough",
+    "date": "2020-04-05T00:37:52.426Z",
+    "dueDate": "2020-03-02T23:47:21.532Z",
+    "id": 71622,
+    "type": "Clothing",
+    "status": "important",
+    "client_id": 1,
+    "schedule": "2020-01-15T16:41:55.181Z",
+    "inspector": {
+      "first_name": "Ellen",
+      "last_name": "Lowe",
+      "email": "Murl73@hotmail.com",
+      "id": 12
+    }
+  },
+  {
+    "location": "06475 Oran Villages Suite 339, Keelinghaven",
+    "date": "2020-03-05T14:49:21.308Z",
+    "dueDate": "2019-11-29T19:35:05.413Z",
+    "id": 66482,
+    "type": "Music",
+    "status": "important",
+    "client_id": 4
+  },
+  {
+    "location": "350 Kristin Turnpike Apt. 997, West Uriel",
+    "date": "2020-06-04T20:47:20.090Z",
+    "dueDate": "2019-11-30T14:32:12.021Z",
+    "id": 42970,
+    "type": "Baby",
+    "status": "important",
+    "client_id": 10,
+    "schedule": "2020-04-22T08:38:43.840Z"
+  },
+  {
+    "location": "6152 Bernhard Harbor Apt. 479, Lionelborough",
+    "date": "2020-03-12T03:55:14.599Z",
+    "dueDate": "2020-08-10T17:17:41.984Z",
+    "id": 95216,
+    "type": "Clothing",
+    "status": "urgent",
+    "client_id": 5,
+    "schedule": "2020-07-23T14:58:03.411Z",
+    "inspector": {
+      "first_name": "Ellen",
+      "last_name": "Lowe",
+      "email": "Murl73@hotmail.com",
+      "id": 12
+    }
+  },
+  {
+    "location": "996 Rohan Square Apt. 010, West Alvera",
+    "date": "2019-11-30T20:27:59.764Z",
+    "dueDate": "2020-04-19T10:58:03.860Z",
+    "id": 11850,
+    "type": "Music",
+    "status": "urgent",
+    "client_id": 2
+  },
+  {
+    "location": "5647 America Club Apt. 074, Schuppeview",
+    "date": "2020-09-19T14:44:45.097Z",
+    "dueDate": "2020-04-29T17:10:37.476Z",
+    "id": 23901,
+    "type": "Tools",
+    "status": "completed",
+    "client_id": 10,
+    "schedule": "2020-03-03T20:48:51.935Z",
+    "report": {
+      "comment": "Quia doloremque perspiciatis."
+    }
+  },
+  {
+    "location": "61849 Estrella Bypass Suite 176, South Kearatown",
+    "date": "2020-09-08T17:56:35.109Z",
+    "dueDate": "2020-01-24T05:02:24.739Z",
+    "id": 49298,
+    "type": "Health",
+    "status": "completed",
+    "client_id": 2,
+    "schedule": "2020-08-13T01:53:44.196Z",
+    "inspector": {
+      "first_name": "Haley",
+      "last_name": "Roob",
+      "email": "Brycen_VonRueden@yahoo.com",
+      "id": 18
+    },
+    "report": {
+      "comment": "Optio dolor natus culpa quia quia non."
+    }
+  },
+  {
+    "location": "0122 Murphy Road Apt. 252, Dibbertview",
+    "date": "2020-07-27T22:59:51.597Z",
+    "dueDate": "2020-10-31T09:34:29.423Z",
+    "id": 52473,
+    "type": "Industrial",
+    "status": "important",
+    "client_id": 9
+  },
+  {
+    "location": "11931 Hane Lakes Suite 054, Alexchester",
+    "date": "2020-10-11T18:51:23.190Z",
+    "dueDate": "2020-05-28T19:44:02.058Z",
+    "id": 55858,
+    "type": "Health",
     "status": "completed",
     "client_id": 9,
-    "inspector_id": 14,
     "report": {
-      "comment": "Beatae qui dolore aspernatur."
-    },
-    "schedule": "2019-12-31T00:19:21.363Z"
-  },
-  {
-    "type": "impedit",
-    "location": "14322 Maci Falls Apt. 315, Ankundingfurt",
-    "date": "2020-04-27T16:34:22.737Z",
-    "dueDate": "2020-06-29T12:40:51.735Z",
-    "id": 94853,
-    "status": "important",
-    "client_id": 6,
-    "inspector_id": 13,
-    "schedule": "2020-10-23T09:53:42.843Z"
-  },
-  {
-    "type": "consequatur",
-    "location": "83890 Becker Point Suite 260, Asiafort",
-    "date": "2020-02-07T16:14:18.661Z",
-    "dueDate": "2020-07-11T12:49:26.530Z",
-    "id": 3864,
-    "status": "important",
-    "client_id": 5,
-    "inspector_id": 14,
-    "schedule": "2020-05-23T12:17:53.122Z"
-  },
-  {
-    "type": "sed",
-    "location": "0542 Norval Motorway Suite 555, Dickichester",
-    "date": "2020-06-12T16:06:31.957Z",
-    "dueDate": "2020-05-21T19:47:34.450Z",
-    "id": 25522,
-    "status": "important",
-    "client_id": 5,
-    "inspector_id": 13
-  },
-  {
-    "type": "qui",
-    "location": "302 Gerry Forge Apt. 544, Bransonborough",
-    "date": "2020-09-06T07:39:25.205Z",
-    "dueDate": "2019-12-23T17:27:38.424Z",
-    "id": 8738,
-    "status": "urgent",
-    "client_id": 8,
-    "inspector_id": 18
-  },
-  {
-    "type": "exercitationem",
-    "location": "10239 Rickie Land Suite 440, South Melodyberg",
-    "date": "2020-08-04T11:42:40.426Z",
-    "dueDate": "2020-08-12T14:07:49.079Z",
-    "id": 20698,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 19,
-    "schedule": "2020-05-22T21:02:46.378Z"
-  },
-  {
-    "type": "dolorem",
-    "location": "5435 Monahan Burgs Apt. 324, Port Izaiah",
-    "date": "2020-02-01T01:11:26.997Z",
-    "dueDate": "2019-12-03T10:13:06.789Z",
-    "id": 54974,
-    "status": "important",
-    "client_id": 1,
-    "inspector_id": 13,
-    "schedule": "2020-06-28T09:52:25.285Z"
-  },
-  {
-    "type": "rerum",
-    "location": "45242 Brown Court Apt. 912, East Montefurt",
-    "date": "2020-10-24T23:34:50.224Z",
-    "dueDate": "2020-10-17T23:10:16.857Z",
-    "id": 25166,
-    "status": "completed",
-    "client_id": 2,
-    "inspector_id": 13,
-    "report": {
-      "comment": "Sit quam totam in sed necessitatibus ut harum veniam eos."
-    },
-    "schedule": "2020-09-15T23:21:29.236Z"
-  },
-  {
-    "type": "expedita",
-    "location": "3738 Leuschke Harbors Apt. 837, Deannaburgh",
-    "date": "2019-11-20T06:07:50.238Z",
-    "dueDate": "2020-08-23T08:59:50.747Z",
-    "id": 84111,
-    "status": "completed",
-    "client_id": 2,
-    "inspector_id": 16,
-    "report": {
-      "comment": "Illo ratione voluptas qui maxime voluptatem illum sunt voluptatem quis."
+      "comment": "Officiis molestiae ullam sed molestiae."
     }
   },
   {
-    "type": "quo",
-    "location": "36230 Lynn Drives Apt. 468, Luettgenchester",
-    "date": "2020-08-04T18:48:58.871Z",
-    "dueDate": "2020-05-29T18:22:13.871Z",
-    "id": 96781,
-    "status": "normal",
-    "client_id": 3,
-    "inspector_id": 15,
-    "schedule": "2020-04-12T14:47:23.860Z"
+    "location": "972 Schumm Route Suite 666, South Seth",
+    "date": "2020-06-24T10:23:59.542Z",
+    "dueDate": "2019-12-17T15:52:00.258Z",
+    "id": 42882,
+    "type": "Outdoors",
+    "status": "urgent",
+    "client_id": 10,
+    "schedule": "2020-10-18T06:14:07.353Z"
   },
   {
-    "type": "eos",
-    "location": "115 Cielo Coves Apt. 952, Conroymouth",
-    "date": "2020-07-08T17:00:59.394Z",
-    "dueDate": "2020-03-16T07:06:56.269Z",
-    "id": 39190,
+    "location": "518 Monroe Turnpike Suite 452, East Nicoletown",
+    "date": "2019-12-21T20:34:19.322Z",
+    "dueDate": "2020-10-27T04:02:14.492Z",
+    "id": 57001,
+    "type": "Baby",
     "status": "completed",
     "client_id": 9,
-    "inspector_id": 12,
     "report": {
-      "comment": "Officia et molestiae optio."
-    },
-    "schedule": "2020-02-17T22:47:38.080Z"
-  },
-  {
-    "type": "voluptatum",
-    "location": "8107 Eden Street Apt. 984, Colinfort",
-    "date": "2020-02-21T22:02:16.725Z",
-    "dueDate": "2020-02-25T18:47:36.419Z",
-    "id": 29145,
-    "status": "urgent",
-    "client_id": 5,
-    "inspector_id": 17,
-    "schedule": "2020-04-18T16:45:03.680Z"
-  },
-  {
-    "type": "fugit",
-    "location": "086 Stroman Run Apt. 753, Bettymouth",
-    "date": "2019-11-30T11:39:58.053Z",
-    "dueDate": "2020-06-21T19:31:31.879Z",
-    "id": 14247,
-    "status": "urgent",
-    "client_id": 8,
-    "inspector_id": 20,
-    "schedule": "2020-01-26T07:25:20.199Z"
-  },
-  {
-    "type": "voluptas",
-    "location": "863 Roderick Stream Suite 851, Port Amparo",
-    "date": "2020-01-22T23:51:56.872Z",
-    "dueDate": "2020-03-26T01:50:41.427Z",
-    "id": 9638,
-    "status": "important",
-    "client_id": 4,
-    "inspector_id": 18
-  },
-  {
-    "type": "inventore",
-    "location": "069 Arlene Motorway Suite 042, East Artmouth",
-    "date": "2020-02-23T08:35:38.040Z",
-    "dueDate": "2020-01-12T12:00:48.125Z",
-    "id": 13566,
-    "status": "normal",
-    "client_id": 10,
-    "inspector_id": 16
-  },
-  {
-    "type": "quo",
-    "location": "76388 Jeremy Fall Apt. 819, Port Duaneville",
-    "date": "2020-08-02T18:14:35.977Z",
-    "dueDate": "2020-03-10T19:26:09.875Z",
-    "id": 62510,
-    "status": "urgent",
-    "client_id": 1,
-    "inspector_id": 14
-  },
-  {
-    "type": "repellat",
-    "location": "6331 Arielle Shores Suite 922, Port Derickport",
-    "date": "2020-06-07T20:29:41.498Z",
-    "dueDate": "2019-11-09T08:17:01.653Z",
-    "id": 15252,
-    "status": "normal",
-    "client_id": 10,
-    "inspector_id": 20
-  },
-  {
-    "type": "eum",
-    "location": "19914 Ullrich Falls Suite 193, South Natalie",
-    "date": "2020-02-06T18:52:56.395Z",
-    "dueDate": "2020-02-29T20:38:07.429Z",
-    "id": 36516,
-    "status": "important",
-    "client_id": 5,
-    "inspector_id": 11
-  },
-  {
-    "type": "in",
-    "location": "7548 Mayer Parkway Apt. 603, Lethaview",
-    "date": "2020-04-10T08:05:14.446Z",
-    "dueDate": "2020-03-13T05:13:12.556Z",
-    "id": 27478,
-    "status": "completed",
-    "client_id": 4,
-    "inspector_id": 12,
-    "report": {
-      "comment": "Doloribus at voluptatem laborum ea."
+      "comment": "Cupiditate rerum quos cum sunt illum sapiente deserunt et."
     }
   },
   {
-    "type": "vitae",
-    "location": "992 Clifford Curve Apt. 197, Victoriaville",
-    "date": "2019-11-18T14:13:35.452Z",
-    "dueDate": "2019-12-10T03:08:40.418Z",
-    "id": 59373,
-    "status": "urgent",
-    "client_id": 1,
-    "inspector_id": 17,
-    "schedule": "2019-12-16T13:53:51.865Z"
-  },
-  {
-    "type": "aut",
-    "location": "277 Kaleb Club Suite 655, Addieberg",
-    "date": "2019-11-06T09:06:03.468Z",
-    "dueDate": "2020-01-31T19:27:28.861Z",
-    "id": 80571,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 15
-  },
-  {
-    "type": "velit",
-    "location": "0119 Lockman Shore Apt. 955, West Evangeline",
-    "date": "2020-01-04T10:15:45.786Z",
-    "dueDate": "2020-01-16T02:28:41.995Z",
-    "id": 40947,
-    "status": "completed",
-    "client_id": 8,
-    "inspector_id": 12,
-    "report": {
-      "comment": "Vitae quo sed iusto minima sed atque explicabo aut dolores."
-    },
-    "schedule": "2020-10-03T19:45:31.660Z"
-  },
-  {
-    "type": "aut",
-    "location": "6727 Minnie Street Apt. 922, New Molly",
-    "date": "2020-05-15T09:12:51.548Z",
-    "dueDate": "2020-04-10T15:40:46.351Z",
-    "id": 55854,
-    "status": "urgent",
-    "client_id": 10,
-    "inspector_id": 14
-  },
-  {
-    "type": "aut",
-    "location": "471 Magnolia Trail Apt. 085, South Alisafurt",
-    "date": "2020-05-08T14:54:19.159Z",
-    "dueDate": "2020-05-02T15:02:12.102Z",
-    "id": 9086,
-    "status": "normal",
-    "client_id": 10,
-    "inspector_id": 12
-  },
-  {
-    "type": "iusto",
-    "location": "849 Thompson Bridge Apt. 448, East Dameon",
-    "date": "2020-04-01T04:52:23.257Z",
-    "dueDate": "2020-09-19T06:13:29.755Z",
-    "id": 9472,
-    "status": "normal",
-    "client_id": 3,
-    "inspector_id": 17,
-    "schedule": "2020-03-20T11:34:52.628Z"
-  },
-  {
-    "type": "alias",
-    "location": "29938 Gerlach Orchard Apt. 003, Daughertyberg",
-    "date": "2020-09-11T05:32:18.720Z",
-    "dueDate": "2020-10-03T22:00:31.209Z",
-    "id": 20775,
-    "status": "completed",
-    "client_id": 2,
-    "inspector_id": 13,
-    "report": {
-      "comment": "Et ut voluptate vitae voluptas cupiditate est ratione."
-    },
-    "schedule": "2020-07-13T10:12:24.346Z"
-  },
-  {
-    "type": "labore",
-    "location": "7082 Carmel Views Apt. 600, New Antwonshire",
-    "date": "2020-02-16T15:03:29.974Z",
-    "dueDate": "2020-03-10T15:47:06.987Z",
-    "id": 51683,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 19
-  },
-  {
-    "type": "animi",
-    "location": "2933 Aniyah Mission Apt. 403, Luettgenhaven",
-    "date": "2020-09-22T23:12:59.918Z",
-    "dueDate": "2019-11-09T12:27:48.940Z",
-    "id": 72918,
-    "status": "urgent",
-    "client_id": 2,
-    "inspector_id": 13,
-    "schedule": "2020-07-03T12:21:07.131Z"
-  },
-  {
-    "type": "nesciunt",
-    "location": "972 Mueller Estates Suite 958, East Jeffreytown",
-    "date": "2020-08-19T08:57:57.212Z",
-    "dueDate": "2020-09-22T15:42:20.688Z",
-    "id": 81155,
-    "status": "important",
-    "client_id": 2,
-    "inspector_id": 12,
-    "schedule": "2020-06-20T11:12:16.360Z"
-  },
-  {
-    "type": "ex",
-    "location": "4265 Aaliyah Mountains Suite 977, Evertside",
-    "date": "2020-09-03T05:59:20.751Z",
-    "dueDate": "2020-03-24T02:40:20.403Z",
-    "id": 16067,
-    "status": "important",
-    "client_id": 10,
-    "inspector_id": 14
-  },
-  {
-    "type": "hic",
-    "location": "780 Krajcik Loop Apt. 901, Hermanntown",
-    "date": "2020-10-13T15:41:26.146Z",
-    "dueDate": "2020-08-12T07:00:34.268Z",
-    "id": 65547,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 18,
-    "schedule": "2020-04-11T06:27:27.965Z"
-  },
-  {
-    "type": "aut",
-    "location": "6073 Hagenes Spur Apt. 847, Botsfordburgh",
-    "date": "2020-05-27T17:48:12.426Z",
-    "dueDate": "2020-08-10T09:09:50.370Z",
-    "id": 50460,
-    "status": "important",
-    "client_id": 7,
-    "inspector_id": 11
-  },
-  {
-    "type": "et",
-    "location": "73050 Urban Mountain Apt. 614, Port Ronaldo",
-    "date": "2019-12-08T20:31:29.412Z",
-    "dueDate": "2020-04-02T18:55:51.887Z",
-    "id": 32167,
-    "status": "important",
-    "client_id": 3,
-    "inspector_id": 16,
-    "schedule": "2020-06-30T02:05:42.075Z"
-  },
-  {
-    "type": "molestiae",
-    "location": "053 Oral Roads Apt. 386, Lake Taryn",
-    "date": "2019-12-14T22:55:31.602Z",
-    "dueDate": "2020-01-05T12:52:51.656Z",
-    "id": 34472,
-    "status": "urgent",
-    "client_id": 4,
-    "inspector_id": 14,
-    "schedule": "2020-03-14T00:37:04.408Z"
-  },
-  {
-    "type": "ipsam",
-    "location": "7604 Harris Light Apt. 397, Kianatown",
-    "date": "2020-08-10T06:47:11.956Z",
-    "dueDate": "2019-11-30T07:56:52.665Z",
-    "id": 81618,
-    "status": "completed",
-    "client_id": 4,
-    "inspector_id": 11,
-    "report": {
-      "comment": "Velit delectus saepe nesciunt quia."
-    },
-    "schedule": "2020-08-12T02:57:41.008Z"
-  },
-  {
-    "type": "vel",
-    "location": "341 Schumm Village Suite 808, New Delphia",
-    "date": "2020-07-28T23:40:35.182Z",
-    "dueDate": "2019-11-06T11:37:02.843Z",
-    "id": 632,
-    "status": "important",
-    "client_id": 5,
-    "inspector_id": 17
-  },
-  {
-    "type": "ea",
-    "location": "3492 Schmeler Ways Apt. 602, Blockborough",
-    "date": "2020-02-21T15:25:26.227Z",
-    "dueDate": "2020-04-04T22:53:50.710Z",
-    "id": 30877,
-    "status": "urgent",
-    "client_id": 5,
-    "inspector_id": 14,
-    "schedule": "2019-12-18T13:54:43.424Z"
-  },
-  {
-    "type": "beatae",
-    "location": "84062 Schneider Pines Apt. 110, Port Cecilberg",
-    "date": "2020-05-25T08:40:23.067Z",
-    "dueDate": "2020-02-24T03:26:12.110Z",
-    "id": 21939,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 13,
-    "schedule": "2020-08-06T13:39:18.652Z"
-  },
-  {
-    "type": "expedita",
-    "location": "2619 Corwin Gardens Suite 800, Bethberg",
-    "date": "2020-09-04T05:35:37.450Z",
-    "dueDate": "2020-09-10T15:28:22.006Z",
-    "id": 86541,
-    "status": "important",
-    "client_id": 7,
-    "inspector_id": 19
-  },
-  {
-    "type": "illo",
-    "location": "0781 Eldora Harbors Suite 151, Bernieburgh",
-    "date": "2019-12-08T23:09:23.303Z",
-    "dueDate": "2020-06-01T00:34:16.698Z",
-    "id": 36345,
-    "status": "urgent",
-    "client_id": 7,
-    "inspector_id": 17,
-    "schedule": "2020-04-09T04:03:00.677Z"
-  },
-  {
-    "type": "quos",
-    "location": "24775 Verna Corner Suite 763, Reillyhaven",
-    "date": "2020-08-03T05:00:24.155Z",
-    "dueDate": "2020-01-22T06:24:01.227Z",
-    "id": 46362,
-    "status": "completed",
-    "client_id": 2,
-    "inspector_id": 12,
-    "report": {
-      "comment": "Sed ex vel assumenda quia nisi."
-    },
-    "schedule": "2020-09-10T05:13:24.996Z"
-  },
-  {
-    "type": "qui",
-    "location": "528 Ethelyn Knoll Apt. 060, Lake Eddiemouth",
-    "date": "2020-06-24T01:50:17.974Z",
-    "dueDate": "2020-05-01T04:33:44.689Z",
-    "id": 61645,
-    "status": "completed",
-    "client_id": 8,
-    "inspector_id": 12,
-    "report": {
-      "comment": "Facere minus possimus sequi culpa voluptate quibusdam sed ab non."
-    }
-  },
-  {
-    "type": "assumenda",
-    "location": "5696 Marquardt Branch Apt. 658, Hicklebury",
-    "date": "2020-04-25T12:25:27.229Z",
-    "dueDate": "2020-10-02T18:43:27.566Z",
-    "id": 75857,
-    "status": "urgent",
-    "client_id": 10,
-    "inspector_id": 15,
-    "schedule": "2020-10-17T04:52:29.830Z"
-  },
-  {
-    "type": "magni",
-    "location": "45549 Borer Haven Apt. 785, Port Dan",
-    "date": "2020-02-16T15:09:22.689Z",
-    "dueDate": "2020-03-20T18:59:45.408Z",
-    "id": 94881,
-    "status": "completed",
-    "client_id": 10,
-    "inspector_id": 14,
-    "report": {
-      "comment": "Quam quo ab nulla aut qui iure ea aliquam."
-    },
-    "schedule": "2020-01-24T11:50:01.991Z"
-  },
-  {
-    "type": "quia",
-    "location": "268 Garth Flats Suite 605, Port Leone",
-    "date": "2019-11-17T11:41:14.041Z",
-    "dueDate": "2020-01-26T20:48:17.295Z",
-    "id": 50010,
-    "status": "normal",
-    "client_id": 8,
-    "inspector_id": 18,
-    "schedule": "2020-10-28T05:19:05.779Z"
-  },
-  {
-    "type": "nulla",
-    "location": "18174 Abelardo Pass Suite 013, Watersville",
-    "date": "2020-07-13T13:43:17.568Z",
-    "dueDate": "2020-08-23T18:01:09.008Z",
-    "id": 28896,
-    "status": "important",
-    "client_id": 10,
-    "inspector_id": 19,
-    "schedule": "2019-11-15T15:07:39.759Z"
-  },
-  {
-    "type": "dolor",
-    "location": "493 Kassulke Islands Apt. 307, New Anabelside",
-    "date": "2020-08-26T22:42:29.478Z",
-    "dueDate": "2020-04-18T14:21:30.066Z",
-    "id": 43447,
-    "status": "completed",
-    "client_id": 1,
-    "inspector_id": 18,
-    "report": {
-      "comment": "Delectus atque voluptate aut itaque sed unde et sunt mollitia."
-    }
-  },
-  {
-    "type": "enim",
-    "location": "4183 Bartell Plains Apt. 796, West Kadin",
-    "date": "2019-12-28T23:56:51.930Z",
-    "dueDate": "2020-04-17T09:53:21.159Z",
-    "id": 72191,
-    "status": "normal",
-    "client_id": 4,
-    "inspector_id": 13
-  },
-  {
-    "type": "fugit",
-    "location": "171 Art Forges Apt. 236, Erdmanland",
-    "date": "2020-01-23T11:40:46.403Z",
-    "dueDate": "2020-09-23T13:16:45.921Z",
-    "id": 68620,
-    "status": "completed",
-    "client_id": 5,
-    "inspector_id": 20,
-    "report": {
-      "comment": "Molestias quis magnam est."
-    }
-  },
-  {
-    "type": "dolorem",
-    "location": "951 Fay Stream Suite 036, West Alexaton",
-    "date": "2020-01-25T23:24:42.297Z",
-    "dueDate": "2019-12-23T23:08:18.741Z",
-    "id": 62427,
-    "status": "completed",
-    "client_id": 6,
-    "inspector_id": 15,
-    "report": {
-      "comment": "A non qui quibusdam."
-    },
-    "schedule": "2020-07-05T18:04:29.446Z"
-  },
-  {
-    "type": "fuga",
-    "location": "87237 Moses Viaduct Suite 881, Katlynnmouth",
-    "date": "2020-03-15T09:15:46.043Z",
-    "dueDate": "2020-03-26T05:56:32.482Z",
-    "id": 87078,
-    "status": "urgent",
-    "client_id": 9,
-    "inspector_id": 17
-  },
-  {
-    "type": "dolore",
-    "location": "20946 Jessyca Rest Suite 386, Henryside",
-    "date": "2019-11-18T01:10:25.070Z",
-    "dueDate": "2020-08-19T11:10:15.418Z",
-    "id": 48121,
-    "status": "completed",
-    "client_id": 4,
-    "inspector_id": 12,
-    "report": {
-      "comment": "Esse necessitatibus libero magnam fugiat eius debitis et dolor."
-    }
-  },
-  {
-    "type": "eos",
-    "location": "3447 Hoppe Shoals Apt. 041, South Christiana",
-    "date": "2020-10-25T17:25:36.368Z",
-    "dueDate": "2020-01-12T08:49:58.490Z",
-    "id": 40256,
-    "status": "normal",
-    "client_id": 1,
-    "inspector_id": 11
-  },
-  {
-    "type": "autem",
-    "location": "281 Friesen Curve Apt. 412, New Theron",
-    "date": "2020-08-14T02:17:12.659Z",
-    "dueDate": "2020-05-18T00:01:40.607Z",
-    "id": 3454,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 15,
-    "schedule": "2020-04-13T14:08:02.808Z"
-  },
-  {
-    "type": "dolorem",
-    "location": "433 Lebsack Walk Apt. 343, South Jamisonside",
-    "date": "2020-06-15T14:47:54.027Z",
-    "dueDate": "2020-02-10T14:19:36.861Z",
-    "id": 82413,
-    "status": "urgent",
-    "client_id": 2,
-    "inspector_id": 19
-  },
-  {
-    "type": "blanditiis",
-    "location": "3953 Mueller Avenue Apt. 190, East Trentborough",
-    "date": "2020-09-02T12:18:02.111Z",
-    "dueDate": "2020-08-23T20:36:43.897Z",
-    "id": 63334,
-    "status": "normal",
-    "client_id": 7,
-    "inspector_id": 15,
-    "schedule": "2020-10-08T07:42:29.815Z"
-  },
-  {
-    "type": "debitis",
-    "location": "3774 Garth Overpass Suite 306, East Teresa",
-    "date": "2020-07-24T23:12:35.775Z",
-    "dueDate": "2020-06-06T03:55:35.363Z",
-    "id": 17827,
-    "status": "important",
-    "client_id": 6,
-    "inspector_id": 14
-  },
-  {
-    "type": "reprehenderit",
-    "location": "204 Cassin Radial Apt. 891, North Kim",
-    "date": "2020-01-21T08:34:08.368Z",
-    "dueDate": "2020-06-23T21:17:21.988Z",
-    "id": 1238,
-    "status": "urgent",
-    "client_id": 7,
-    "inspector_id": 11
-  },
-  {
-    "type": "atque",
-    "location": "6618 Oran Track Apt. 137, Cristfurt",
-    "date": "2020-07-28T17:32:48.700Z",
-    "dueDate": "2020-07-10T17:10:13.942Z",
-    "id": 2089,
-    "status": "normal",
-    "client_id": 2,
-    "inspector_id": 19
-  },
-  {
-    "type": "aliquam",
-    "location": "6323 Gustave Freeway Apt. 987, Maximomouth",
-    "date": "2020-07-26T05:24:06.374Z",
-    "dueDate": "2020-03-19T18:16:45.606Z",
-    "id": 24983,
-    "status": "normal",
-    "client_id": 6,
-    "inspector_id": 20,
-    "schedule": "2019-12-11T08:01:42.728Z"
-  },
-  {
-    "type": "dolor",
-    "location": "52261 Dare Summit Suite 033, Markusmouth",
-    "date": "2020-06-20T09:28:49.208Z",
-    "dueDate": "2019-11-04T18:41:45.249Z",
-    "id": 13456,
-    "status": "completed",
-    "client_id": 1,
-    "inspector_id": 14,
-    "report": {
-      "comment": "Illum autem accusantium et occaecati."
-    }
-  },
-  {
-    "type": "sunt",
-    "location": "4062 Frida Plaza Apt. 408, Delfinamouth",
-    "date": "2020-05-24T04:24:42.697Z",
-    "dueDate": "2020-03-12T00:17:30.109Z",
-    "id": 54205,
-    "status": "urgent",
-    "client_id": 2,
-    "inspector_id": 17
-  },
-  {
-    "type": "repellat",
-    "location": "6110 Schmeler Ports Apt. 926, Tristonland",
-    "date": "2020-08-07T13:18:21.521Z",
-    "dueDate": "2020-09-19T21:21:56.604Z",
-    "id": 21370,
-    "status": "completed",
-    "client_id": 6,
-    "inspector_id": 16,
-    "report": {
-      "comment": "Velit blanditiis hic ullam eum vel eos consequatur et."
-    },
-    "schedule": "2020-05-22T20:53:26.336Z"
-  },
-  {
-    "type": "quas",
-    "location": "249 Cormier Circles Suite 252, Jacobschester",
-    "date": "2020-02-04T01:24:50.347Z",
-    "dueDate": "2019-11-15T21:34:05.261Z",
-    "id": 79855,
-    "status": "normal",
-    "client_id": 8,
-    "inspector_id": 16
-  },
-  {
-    "type": "reiciendis",
-    "location": "30346 Emory Heights Suite 173, Kozeyburgh",
-    "date": "2020-01-25T16:44:54.718Z",
-    "dueDate": "2020-09-21T14:26:55.486Z",
-    "id": 73628,
-    "status": "important",
-    "client_id": 8,
-    "inspector_id": 18,
-    "schedule": "2020-04-27T15:17:24.873Z"
-  },
-  {
-    "type": "inventore",
-    "location": "19876 Ortiz Fall Apt. 323, Lake Alanna",
-    "date": "2020-01-11T01:32:36.603Z",
-    "dueDate": "2020-07-09T12:05:10.699Z",
-    "id": 74948,
-    "status": "important",
-    "client_id": 9,
-    "inspector_id": 18,
-    "schedule": "2020-05-21T09:32:47.539Z"
-  },
-  {
-    "type": "inventore",
-    "location": "24609 Collier Squares Suite 874, East Emilborough",
-    "date": "2020-10-14T00:55:20.836Z",
-    "dueDate": "2020-06-14T13:37:21.616Z",
-    "id": 62949,
-    "status": "important",
-    "client_id": 4,
-    "inspector_id": 19
-  },
-  {
-    "type": "quia",
-    "location": "914 Jerrold Vista Suite 821, East Retta",
-    "date": "2020-04-22T03:09:30.570Z",
-    "dueDate": "2020-07-14T10:30:46.818Z",
-    "id": 23898,
-    "status": "completed",
-    "client_id": 7,
-    "inspector_id": 13,
-    "report": {
-      "comment": "Qui libero deserunt iste soluta."
-    }
-  },
-  {
-    "type": "ut",
-    "location": "77338 Elyssa Pine Suite 697, New Hobart",
-    "date": "2020-06-18T02:58:15.904Z",
-    "dueDate": "2020-09-16T22:00:59.855Z",
-    "id": 28256,
-    "status": "important",
-    "client_id": 6,
-    "inspector_id": 16
-  },
-  {
-    "type": "consequatur",
-    "location": "0416 Wilfred Bypass Suite 609, New Simeon",
-    "date": "2020-10-05T20:06:05.952Z",
-    "dueDate": "2020-06-02T14:27:54.122Z",
-    "id": 60753,
-    "status": "completed",
-    "client_id": 3,
-    "inspector_id": 18,
-    "report": {
-      "comment": "Rerum ipsum et magni repellendus."
-    }
-  },
-  {
-    "type": "qui",
-    "location": "99312 Myah Crossing Apt. 577, South Douglasbury",
-    "date": "2020-05-16T00:48:27.026Z",
-    "dueDate": "2020-05-10T15:20:52.604Z",
-    "id": 21484,
-    "status": "completed",
-    "client_id": 1,
-    "inspector_id": 15,
-    "report": {
-      "comment": "Rem aspernatur officiis exercitationem culpa numquam facere numquam repellendus velit."
-    }
-  },
-  {
-    "type": "facere",
-    "location": "750 Liza Grove Suite 490, South Luciusville",
-    "date": "2019-12-12T13:57:23.879Z",
-    "dueDate": "2020-08-12T11:51:03.296Z",
-    "id": 34775,
-    "status": "urgent",
-    "client_id": 2,
-    "inspector_id": 20
-  },
-  {
-    "type": "natus",
-    "location": "530 Oberbrunner Station Suite 324, Brainburgh",
-    "date": "2020-03-29T01:49:39.724Z",
-    "dueDate": "2020-07-04T01:14:14.168Z",
-    "id": 57809,
-    "status": "urgent",
-    "client_id": 4,
-    "inspector_id": 12
-  },
-  {
-    "type": "unde",
-    "location": "3027 Reinger Landing Suite 547, West Blancabury",
-    "date": "2019-12-28T08:49:46.626Z",
-    "dueDate": "2020-01-30T15:17:19.444Z",
-    "id": 66611,
-    "status": "normal",
-    "client_id": 8,
-    "inspector_id": 18
-  },
-  {
-    "type": "debitis",
-    "location": "393 Adrienne Landing Suite 183, Jaycechester",
-    "date": "2020-03-07T21:49:27.298Z",
-    "dueDate": "2020-09-12T11:00:35.576Z",
-    "id": 9383,
+    "location": "72536 Mitchell Expressway Suite 134, Lake Johnny",
+    "date": "2020-07-25T01:12:14.818Z",
+    "dueDate": "2020-02-19T10:42:43.565Z",
+    "id": 25840,
+    "type": "Baby",
     "status": "completed",
     "client_id": 9,
-    "inspector_id": 17,
+    "schedule": "2020-05-21T04:15:22.308Z",
     "report": {
-      "comment": "Culpa qui et omnis quia aut nulla voluptatum odio aliquam."
+      "comment": "Et enim corporis dolores ex autem quis cum."
     }
   },
   {
-    "type": "quos",
-    "location": "9635 Gutkowski Tunnel Apt. 840, Durwardborough",
-    "date": "2020-01-26T12:26:20.637Z",
-    "dueDate": "2020-04-13T03:49:08.268Z",
-    "id": 36985,
+    "location": "6774 Brown Meadow Suite 912, Emardtown",
+    "date": "2020-10-23T11:59:39.414Z",
+    "dueDate": "2020-08-22T23:47:12.477Z",
+    "id": 62515,
+    "type": "Shoes",
     "status": "completed",
-    "client_id": 1,
-    "inspector_id": 19,
+    "client_id": 6,
     "report": {
-      "comment": "Rerum eius quasi perferendis illo sit."
-    },
-    "schedule": "2020-06-07T02:02:37.085Z"
+      "comment": "Adipisci nemo nemo et similique sed expedita a."
+    }
   },
   {
-    "type": "vero",
-    "location": "469 Nicolas Village Suite 853, Bednarstad",
-    "date": "2020-01-16T03:11:21.736Z",
-    "dueDate": "2020-08-09T02:13:54.143Z",
-    "id": 23295,
-    "status": "urgent",
+    "location": "74296 Russel Trafficway Apt. 911, East Vincenzaside",
+    "date": "2020-09-09T10:56:21.472Z",
+    "dueDate": "2020-03-18T22:58:49.472Z",
+    "id": 19615,
+    "type": "Clothing",
+    "status": "important",
     "client_id": 9,
-    "inspector_id": 18
+    "schedule": "2020-08-11T22:00:38.430Z",
+    "inspector": {
+      "first_name": "Ricardo",
+      "last_name": "Yost",
+      "email": "Jayme.Keebler88@yahoo.com",
+      "id": 15
+    }
   },
   {
-    "type": "odio",
-    "location": "865 Von Pass Suite 314, Reillymouth",
-    "date": "2019-11-29T23:41:37.168Z",
-    "dueDate": "2020-04-18T11:19:31.364Z",
-    "id": 25197,
-    "status": "urgent",
-    "client_id": 4,
-    "inspector_id": 18
-  },
-  {
-    "type": "itaque",
-    "location": "45723 Gabriel Mountains Suite 070, New Ayla",
-    "date": "2019-11-27T14:54:19.727Z",
-    "dueDate": "2020-03-11T12:05:57.591Z",
-    "id": 48849,
+    "location": "6452 Jonatan Road Apt. 876, South Justynside",
+    "date": "2020-10-07T21:02:43.310Z",
+    "dueDate": "2020-06-17T23:47:46.650Z",
+    "id": 18902,
+    "type": "Baby",
     "status": "normal",
-    "client_id": 10,
-    "inspector_id": 12
+    "client_id": 4,
+    "schedule": "2020-06-30T06:12:55.872Z"
   },
   {
-    "type": "non",
-    "location": "07486 Shanahan Prairie Suite 174, Hodkiewiczshire",
-    "date": "2020-01-28T22:58:45.752Z",
-    "dueDate": "2020-08-29T00:46:48.634Z",
-    "id": 39160,
-    "status": "important",
+    "location": "964 Merritt Forks Apt. 879, New Elliottmouth",
+    "date": "2020-02-23T20:25:16.871Z",
+    "dueDate": "2019-11-19T21:52:55.660Z",
+    "id": 58494,
+    "type": "Health",
+    "status": "completed",
     "client_id": 5,
-    "inspector_id": 19
-  },
-  {
-    "type": "aut",
-    "location": "0106 Pacocha Brook Suite 599, New Carliburgh",
-    "date": "2020-03-08T15:26:59.620Z",
-    "dueDate": "2019-11-29T04:06:35.170Z",
-    "id": 50791,
-    "status": "important",
-    "client_id": 10,
-    "inspector_id": 13,
-    "schedule": "2020-03-02T01:29:10.388Z"
-  },
-  {
-    "type": "et",
-    "location": "4652 Winifred Mountain Suite 837, Enosburgh",
-    "date": "2020-09-18T17:25:48.347Z",
-    "dueDate": "2020-02-18T22:24:40.182Z",
-    "id": 92541,
-    "status": "important",
-    "client_id": 10,
-    "inspector_id": 15
-  },
-  {
-    "type": "ut",
-    "location": "252 Horacio Flat Apt. 428, South Jasminmouth",
-    "date": "2020-10-06T08:53:54.340Z",
-    "dueDate": "2020-05-20T13:03:04.657Z",
-    "id": 64490,
-    "status": "important",
-    "client_id": 10,
-    "inspector_id": 12
-  },
-  {
-    "type": "voluptas",
-    "location": "19464 Isidro Walk Suite 170, Corrineshire",
-    "date": "2019-12-03T08:22:45.490Z",
-    "dueDate": "2019-11-26T23:20:36.784Z",
-    "id": 38935,
-    "status": "urgent",
-    "client_id": 10,
-    "inspector_id": 11
-  },
-  {
-    "type": "eos",
-    "location": "613 Schulist Street Apt. 796, West Dell",
-    "date": "2019-11-06T18:55:00.154Z",
-    "dueDate": "2020-04-11T17:35:42.114Z",
-    "id": 77686,
-    "status": "urgent",
-    "client_id": 1,
-    "inspector_id": 19
-  },
-  {
-    "type": "ipsa",
-    "location": "83242 Cronin Place Apt. 620, Doloresport",
-    "date": "2020-07-31T14:19:09.362Z",
-    "dueDate": "2020-06-18T23:16:06.436Z",
-    "id": 88612,
-    "status": "completed",
-    "client_id": 8,
-    "inspector_id": 20,
+    "schedule": "2020-08-23T17:33:09.770Z",
+    "inspector": {
+      "first_name": "Haley",
+      "last_name": "Roob",
+      "email": "Brycen_VonRueden@yahoo.com",
+      "id": 18
+    },
     "report": {
-      "comment": "Molestiae autem ut quia porro."
+      "comment": "At ut est."
     }
   },
   {
-    "type": "nemo",
-    "location": "93619 Bins Trafficway Suite 919, Tillmanstad",
-    "date": "2019-12-02T11:43:07.121Z",
-    "dueDate": "2020-02-02T03:08:54.218Z",
-    "id": 73565,
-    "status": "important",
-    "client_id": 8,
-    "inspector_id": 15,
-    "schedule": "2020-01-09T10:33:12.028Z"
-  },
-  {
-    "type": "saepe",
-    "location": "777 Victor Inlet Suite 275, South Filiberto",
-    "date": "2020-01-15T21:04:55.655Z",
-    "dueDate": "2019-12-12T20:46:21.608Z",
-    "id": 25400,
-    "status": "completed",
-    "client_id": 1,
-    "inspector_id": 20,
-    "report": {
-      "comment": "A cumque maxime qui similique distinctio et id."
-    }
-  },
-  {
-    "type": "reprehenderit",
-    "location": "703 Macejkovic Point Apt. 804, New Amayaport",
-    "date": "2020-01-23T15:59:44.265Z",
-    "dueDate": "2020-09-26T00:24:18.225Z",
-    "id": 52026,
+    "location": "7429 Jones Inlet Apt. 557, New Olenport",
+    "date": "2020-06-28T08:23:59.645Z",
+    "dueDate": "2020-03-14T14:41:12.755Z",
+    "id": 11899,
+    "type": "Home",
     "status": "completed",
     "client_id": 7,
-    "inspector_id": 13,
-    "report": {
-      "comment": "Beatae et illo et nulla."
+    "schedule": "2020-01-17T23:53:35.973Z",
+    "inspector": {
+      "first_name": "Julie",
+      "last_name": "Okuneva",
+      "email": "Torey.Bailey7@hotmail.com",
+      "id": 16
     },
-    "schedule": "2020-06-11T11:59:16.105Z"
-  },
-  {
-    "type": "voluptates",
-    "location": "3957 Gloria Spurs Suite 466, Gusikowskiburgh",
-    "date": "2019-11-05T09:40:41.341Z",
-    "dueDate": "2020-01-28T17:18:21.709Z",
-    "id": 64994,
-    "status": "normal",
-    "client_id": 4,
-    "inspector_id": 12
-  },
-  {
-    "type": "accusamus",
-    "location": "8321 Mariam Land Apt. 018, South Andrewville",
-    "date": "2020-08-25T04:47:43.366Z",
-    "dueDate": "2020-03-22T08:54:19.930Z",
-    "id": 48751,
-    "status": "normal",
-    "client_id": 1,
-    "inspector_id": 14
-  },
-  {
-    "type": "voluptas",
-    "location": "4036 Marjolaine Springs Suite 605, East Lindsaybury",
-    "date": "2019-11-18T14:58:43.741Z",
-    "dueDate": "2019-12-11T15:19:17.051Z",
-    "id": 64119,
-    "status": "completed",
-    "client_id": 3,
-    "inspector_id": 13,
     "report": {
-      "comment": "Consectetur aliquid dignissimos non quo in non dolor eligendi molestiae."
-    },
-    "schedule": "2020-04-23T01:41:15.868Z"
-  },
-  {
-    "type": "accusamus",
-    "location": "771 Schmidt Loaf Apt. 944, Port Deondrechester",
-    "date": "2019-11-08T02:09:21.167Z",
-    "dueDate": "2020-08-30T06:52:26.931Z",
-    "id": 32098,
-    "status": "completed",
-    "client_id": 3,
-    "inspector_id": 19,
-    "report": {
-      "comment": "Cumque praesentium ad modi quod."
-    },
-    "schedule": "2019-12-01T06:30:28.228Z"
-  },
-  {
-    "type": "ipsum",
-    "location": "6289 Hannah Underpass Suite 096, New Caleville",
-    "date": "2020-10-04T17:16:02.266Z",
-    "dueDate": "2020-08-28T20:21:04.184Z",
-    "id": 89676,
-    "status": "important",
-    "client_id": 5,
-    "inspector_id": 14
-  },
-  {
-    "type": "consequatur",
-    "location": "6070 Aron Trail Apt. 085, South Rosemarieshire",
-    "date": "2020-10-12T16:23:11.472Z",
-    "dueDate": "2019-11-05T10:14:32.840Z",
-    "id": 39616,
-    "status": "completed",
-    "client_id": 5,
-    "inspector_id": 11,
-    "report": {
-      "comment": "Voluptas fuga porro nostrum eum fuga repellendus dolore quod."
+      "comment": "Et voluptas voluptatum qui."
     }
   },
   {
-    "type": "nulla",
-    "location": "708 Schinner Stravenue Apt. 194, West Eliasmouth",
-    "date": "2020-07-29T15:58:19.735Z",
-    "dueDate": "2020-04-09T09:18:09.494Z",
-    "id": 78693,
+    "location": "680 Dickens Pine Suite 958, Conroymouth",
+    "date": "2019-12-19T03:30:14.871Z",
+    "dueDate": "2020-06-10T14:18:27.252Z",
+    "id": 58279,
+    "type": "Music",
+    "status": "urgent",
+    "client_id": 3
+  },
+  {
+    "location": "5407 Dickens Fork Apt. 103, Yostside",
+    "date": "2020-10-07T15:51:47.778Z",
+    "dueDate": "2020-08-19T15:30:47.790Z",
+    "id": 26248,
+    "type": "Baby",
+    "status": "urgent",
+    "client_id": 4
+  },
+  {
+    "location": "4539 Maggio Mountain Apt. 564, East Rafaelberg",
+    "date": "2020-09-22T15:11:09.935Z",
+    "dueDate": "2019-12-11T21:29:43.114Z",
+    "id": 7882,
+    "type": "Outdoors",
+    "status": "urgent",
+    "client_id": 8,
+    "schedule": "2020-02-04T09:11:58.737Z"
+  },
+  {
+    "location": "15796 Schaefer Ranch Suite 684, Port Christopheland",
+    "date": "2020-10-29T08:13:37.647Z",
+    "dueDate": "2020-04-29T11:45:53.898Z",
+    "id": 22440,
+    "type": "Music",
+    "status": "completed",
+    "client_id": 7,
+    "report": {
+      "comment": "Quae optio sit."
+    }
+  },
+  {
+    "location": "4842 Huel Green Suite 500, Gwendolynberg",
+    "date": "2020-08-18T17:10:29.998Z",
+    "dueDate": "2020-09-22T11:11:06.215Z",
+    "id": 94489,
+    "type": "Music",
+    "status": "important",
+    "client_id": 6
+  },
+  {
+    "location": "41688 Hartmann Ferry Apt. 347, Port Brad",
+    "date": "2020-04-04T06:14:59.405Z",
+    "dueDate": "2020-01-04T16:28:49.903Z",
+    "id": 93119,
+    "type": "Home",
     "status": "normal",
+    "client_id": 8,
+    "schedule": "2020-10-11T04:03:37.192Z",
+    "inspector": {
+      "first_name": "Carli",
+      "last_name": "Huels",
+      "email": "Gabriel92@hotmail.com",
+      "id": 14
+    }
+  },
+  {
+    "location": "92327 Feil Lodge Apt. 692, Kiehnview",
+    "date": "2020-09-11T17:25:24.905Z",
+    "dueDate": "2019-11-11T15:33:34.628Z",
+    "id": 48488,
+    "type": "Health",
+    "status": "important",
     "client_id": 3,
-    "inspector_id": 19,
-    "schedule": "2020-05-04T03:07:27.116Z"
+    "schedule": "2020-08-06T01:04:44.702Z",
+    "inspector": {
+      "first_name": "Haley",
+      "last_name": "Roob",
+      "email": "Brycen_VonRueden@yahoo.com",
+      "id": 18
+    }
   },
   {
-    "type": "quae",
-    "location": "8599 Vella Tunnel Suite 513, O'Keefeberg",
-    "date": "2020-04-11T22:05:46.287Z",
-    "dueDate": "2020-08-20T08:21:35.423Z",
-    "id": 81742,
-    "status": "important",
-    "client_id": 6,
-    "inspector_id": 11,
-    "schedule": "2020-05-16T16:12:23.081Z"
-  },
-  {
-    "type": "deserunt",
-    "location": "394 Priscilla Ramp Apt. 402, Malliechester",
-    "date": "2020-03-23T22:22:57.134Z",
-    "dueDate": "2020-09-19T04:55:50.456Z",
-    "id": 66469,
-    "status": "important",
+    "location": "2823 Ezequiel Springs Apt. 868, Port Carastad",
+    "date": "2020-01-18T14:40:57.318Z",
+    "dueDate": "2020-03-15T14:32:08.614Z",
+    "id": 78942,
+    "type": "Tools",
+    "status": "urgent",
     "client_id": 10,
-    "inspector_id": 16,
-    "schedule": "2020-10-27T03:07:17.145Z"
+    "schedule": "2020-04-13T23:18:15.716Z"
   },
   {
-    "type": "mollitia",
-    "location": "9196 Pacocha Crest Apt. 762, Raymondshire",
-    "date": "2020-04-17T13:26:19.718Z",
-    "dueDate": "2020-06-23T09:31:11.997Z",
-    "id": 79608,
-    "status": "completed",
-    "client_id": 4,
-    "inspector_id": 18,
-    "report": {
-      "comment": "Corrupti aliquam est temporibus sit."
-    }
-  },
-  {
-    "type": "neque",
-    "location": "74201 Mertz Grove Suite 853, Sebastianfurt",
-    "date": "2019-12-18T06:49:05.894Z",
-    "dueDate": "2020-01-06T01:26:05.673Z",
-    "id": 51211,
+    "location": "885 Chase Terrace Suite 000, Port Annabelle",
+    "date": "2020-02-14T06:32:41.593Z",
+    "dueDate": "2020-04-14T19:34:36.124Z",
+    "id": 86823,
+    "type": "Music",
     "status": "important",
     "client_id": 8,
-    "inspector_id": 20
+    "schedule": "2020-11-02T23:53:18.172Z",
+    "inspector": {
+      "first_name": "Francis",
+      "last_name": "Pagac",
+      "email": "Gunner_Schmitt@yahoo.com",
+      "id": 17
+    }
+  },
+  {
+    "location": "6639 Everette Ramp Suite 858, New Dariana",
+    "date": "2020-09-02T17:12:14.183Z",
+    "dueDate": "2020-07-18T08:26:33.464Z",
+    "id": 37425,
+    "type": "Sports",
+    "status": "completed",
+    "client_id": 9,
+    "report": {
+      "comment": "Deleniti sapiente aut quaerat quo ut quasi qui ipsa."
+    }
+  },
+  {
+    "location": "6032 Mayra Court Suite 611, North Destinyland",
+    "date": "2020-03-05T23:29:08.493Z",
+    "dueDate": "2019-11-18T22:55:47.961Z",
+    "id": 55058,
+    "type": "Industrial",
+    "status": "normal",
+    "client_id": 1
+  },
+  {
+    "location": "77213 Will Ferry Suite 867, New Austyn",
+    "date": "2020-01-14T08:38:00.111Z",
+    "dueDate": "2019-11-09T17:30:53.488Z",
+    "id": 52538,
+    "type": "Clothing",
+    "status": "normal",
+    "client_id": 8,
+    "schedule": "2020-04-06T06:45:33.624Z",
+    "inspector": {
+      "first_name": "Ellen",
+      "last_name": "Lowe",
+      "email": "Murl73@hotmail.com",
+      "id": 12
+    }
+  },
+  {
+    "location": "469 Cummerata Manor Suite 445, Pfannerstillshire",
+    "date": "2019-11-21T09:15:44.642Z",
+    "dueDate": "2019-12-06T13:57:08.815Z",
+    "id": 312,
+    "type": "Clothing",
+    "status": "completed",
+    "client_id": 2,
+    "report": {
+      "comment": "Culpa provident totam laboriosam."
+    }
+  },
+  {
+    "location": "2210 Minnie Stravenue Suite 177, East Martine",
+    "date": "2019-12-11T03:32:30.140Z",
+    "dueDate": "2020-10-07T05:25:34.491Z",
+    "id": 35200,
+    "type": "Kids",
+    "status": "important",
+    "client_id": 2,
+    "schedule": "2020-07-18T22:46:24.218Z"
+  },
+  {
+    "location": "21403 Kreiger Canyon Apt. 268, Marquardttown",
+    "date": "2020-08-11T22:51:15.824Z",
+    "dueDate": "2019-11-30T19:27:26.734Z",
+    "id": 16453,
+    "type": "Industrial",
+    "status": "completed",
+    "client_id": 5,
+    "schedule": "2020-10-19T07:27:17.383Z",
+    "report": {
+      "comment": "Provident totam sequi ratione delectus."
+    }
+  },
+  {
+    "location": "21099 Runolfsson Gateway Apt. 733, New Dejamouth",
+    "date": "2020-07-01T18:55:18.545Z",
+    "dueDate": "2020-08-19T06:49:12.270Z",
+    "id": 3513,
+    "type": "Home",
+    "status": "completed",
+    "client_id": 4,
+    "report": {
+      "comment": "Esse consectetur et debitis autem fugit voluptates eius esse."
+    }
+  },
+  {
+    "location": "9979 Cummerata Point Apt. 165, East Brigitteburgh",
+    "date": "2020-08-14T07:26:36.624Z",
+    "dueDate": "2020-07-21T04:47:38.593Z",
+    "id": 1603,
+    "type": "Home",
+    "status": "urgent",
+    "client_id": 1,
+    "schedule": "2020-10-14T18:43:43.762Z",
+    "inspector": {
+      "first_name": "Carli",
+      "last_name": "Huels",
+      "email": "Gabriel92@hotmail.com",
+      "id": 14
+    }
+  },
+  {
+    "location": "62047 Wolf Mills Suite 162, West Janiyaside",
+    "date": "2020-09-03T22:45:26.360Z",
+    "dueDate": "2020-04-21T12:45:16.052Z",
+    "id": 37485,
+    "type": "Beauty",
+    "status": "urgent",
+    "client_id": 8
+  },
+  {
+    "location": "152 Gaylord Road Apt. 296, South Abbieton",
+    "date": "2020-02-25T21:36:23.237Z",
+    "dueDate": "2020-02-05T10:11:59.134Z",
+    "id": 95103,
+    "type": "Shoes",
+    "status": "completed",
+    "client_id": 2,
+    "schedule": "2020-01-25T02:44:45.985Z",
+    "inspector": {
+      "first_name": "Arlene",
+      "last_name": "O'Conner",
+      "email": "Pauline.Turner@yahoo.com",
+      "id": 19
+    },
+    "report": {
+      "comment": "Distinctio nisi eum dolorem nihil voluptas corrupti consequatur rem."
+    }
+  },
+  {
+    "location": "1694 Lewis Glen Apt. 705, East Adelaborough",
+    "date": "2019-11-17T13:04:57.015Z",
+    "dueDate": "2020-10-21T20:33:46.735Z",
+    "id": 5265,
+    "type": "Music",
+    "status": "important",
+    "client_id": 2
+  },
+  {
+    "location": "86123 Hirthe Centers Apt. 563, Maurinefort",
+    "date": "2020-02-06T00:14:52.791Z",
+    "dueDate": "2020-02-23T07:01:34.373Z",
+    "id": 43868,
+    "type": "Tools",
+    "status": "completed",
+    "client_id": 2,
+    "schedule": "2020-09-21T09:46:16.679Z",
+    "report": {
+      "comment": "Molestiae repellendus necessitatibus itaque sed quia aut occaecati."
+    }
+  },
+  {
+    "location": "186 Lavina Walks Apt. 931, Port Hildaburgh",
+    "date": "2019-11-17T01:34:57.070Z",
+    "dueDate": "2020-09-06T07:49:47.668Z",
+    "id": 57916,
+    "type": "Outdoors",
+    "status": "normal",
+    "client_id": 3
+  },
+  {
+    "location": "8958 Schroeder Village Suite 789, New Laylaberg",
+    "date": "2020-05-08T04:41:55.943Z",
+    "dueDate": "2020-09-30T00:55:01.563Z",
+    "id": 95659,
+    "type": "Home",
+    "status": "urgent",
+    "client_id": 7,
+    "schedule": "2020-08-10T10:32:40.191Z",
+    "inspector": {
+      "first_name": "Carli",
+      "last_name": "Huels",
+      "email": "Gabriel92@hotmail.com",
+      "id": 14
+    }
+  },
+  {
+    "location": "28346 Layne Rest Suite 311, Bechtelarfort",
+    "date": "2020-09-02T01:42:45.741Z",
+    "dueDate": "2020-02-09T18:32:21.544Z",
+    "id": 72533,
+    "type": "Music",
+    "status": "completed",
+    "client_id": 10,
+    "report": {
+      "comment": "Non labore ad iste voluptatem sint."
+    }
+  },
+  {
+    "location": "245 Zoey Motorway Apt. 515, Port Michaelfort",
+    "date": "2020-01-04T12:45:12.891Z",
+    "dueDate": "2020-01-02T15:01:29.838Z",
+    "id": 76466,
+    "type": "Sports",
+    "status": "important",
+    "client_id": 9
+  },
+  {
+    "location": "57238 Enrico Plaza Suite 129, West Name",
+    "date": "2020-01-02T18:33:28.488Z",
+    "dueDate": "2020-06-04T07:36:41.660Z",
+    "id": 94348,
+    "type": "Beauty",
+    "status": "important",
+    "client_id": 1,
+    "schedule": "2020-03-15T20:18:35.241Z",
+    "inspector": {
+      "first_name": "Soledad",
+      "last_name": "Turcotte",
+      "email": "Raoul.Sipes74@yahoo.com",
+      "id": 13
+    }
+  },
+  {
+    "location": "670 Vance Meadows Apt. 574, Gabrielleborough",
+    "date": "2020-01-14T23:39:06.384Z",
+    "dueDate": "2020-09-30T08:54:20.520Z",
+    "id": 67159,
+    "type": "Beauty",
+    "status": "normal",
+    "client_id": 6
+  },
+  {
+    "location": "79388 Morar Fort Apt. 570, East Graham",
+    "date": "2020-06-28T09:38:53.763Z",
+    "dueDate": "2020-02-23T03:14:33.662Z",
+    "id": 74882,
+    "type": "Clothing",
+    "status": "normal",
+    "client_id": 7
+  },
+  {
+    "location": "36144 Bednar Freeway Suite 979, North Sharon",
+    "date": "2020-01-19T01:26:55.929Z",
+    "dueDate": "2020-03-06T17:18:32.295Z",
+    "id": 7938,
+    "type": "Kids",
+    "status": "completed",
+    "client_id": 10,
+    "report": {
+      "comment": "Exercitationem et dolor dolorem qui sit quam dolor."
+    }
+  },
+  {
+    "location": "927 Dasia Forks Apt. 194, New Bradley",
+    "date": "2019-11-05T01:57:51.454Z",
+    "dueDate": "2019-12-04T21:55:34.629Z",
+    "id": 43196,
+    "type": "Shoes",
+    "status": "completed",
+    "client_id": 3,
+    "schedule": "2020-04-26T04:57:01.130Z",
+    "inspector": {
+      "first_name": "Salvador",
+      "last_name": "Nitzsche",
+      "email": "Evert_Kihn78@yahoo.com",
+      "id": 20
+    },
+    "report": {
+      "comment": "Quia aut voluptatem ut illo."
+    }
+  },
+  {
+    "location": "583 Franco Viaduct Apt. 200, East Enastad",
+    "date": "2019-11-18T08:57:34.556Z",
+    "dueDate": "2019-12-26T02:35:21.701Z",
+    "id": 68007,
+    "type": "Clothing",
+    "status": "important",
+    "client_id": 2
+  },
+  {
+    "location": "47909 Annamarie Path Apt. 219, Manteland",
+    "date": "2020-02-15T21:03:15.474Z",
+    "dueDate": "2020-05-29T12:12:24.377Z",
+    "id": 28723,
+    "type": "Industrial",
+    "status": "urgent",
+    "client_id": 6,
+    "schedule": "2020-01-18T03:01:21.630Z"
+  },
+  {
+    "location": "5591 Kraig Land Suite 654, East Jarod",
+    "date": "2020-03-06T12:49:17.311Z",
+    "dueDate": "2020-09-17T04:07:51.697Z",
+    "id": 59294,
+    "type": "Baby",
+    "status": "completed",
+    "client_id": 4,
+    "schedule": "2020-04-14T03:39:53.348Z",
+    "report": {
+      "comment": "Magnam ad ut."
+    }
+  },
+  {
+    "location": "176 Hugh Place Apt. 611, Port Osvaldobury",
+    "date": "2020-04-06T18:49:25.695Z",
+    "dueDate": "2020-05-19T13:14:33.809Z",
+    "id": 12876,
+    "type": "Music",
+    "status": "important",
+    "client_id": 1,
+    "schedule": "2020-09-17T06:22:39.932Z",
+    "inspector": {
+      "first_name": "Francis",
+      "last_name": "Pagac",
+      "email": "Gunner_Schmitt@yahoo.com",
+      "id": 17
+    }
+  },
+  {
+    "location": "451 Wilfred Port Suite 147, Strosinborough",
+    "date": "2019-12-25T15:22:46.631Z",
+    "dueDate": "2020-08-09T08:24:24.462Z",
+    "id": 66482,
+    "type": "Sports",
+    "status": "urgent",
+    "client_id": 10
+  },
+  {
+    "location": "81314 Camron Ridge Apt. 133, Lynchburgh",
+    "date": "2020-03-05T08:54:08.389Z",
+    "dueDate": "2020-08-02T03:24:17.368Z",
+    "id": 39803,
+    "type": "Sports",
+    "status": "important",
+    "client_id": 5
+  },
+  {
+    "location": "87416 Bertrand Plaza Suite 810, Port Nadia",
+    "date": "2020-01-24T03:10:52.511Z",
+    "dueDate": "2020-07-31T07:35:18.541Z",
+    "id": 48549,
+    "type": "Beauty",
+    "status": "important",
+    "client_id": 1
+  },
+  {
+    "location": "592 Kurtis Radial Apt. 863, South Johnnyburgh",
+    "date": "2020-02-15T00:51:18.231Z",
+    "dueDate": "2019-11-06T08:17:30.898Z",
+    "id": 88757,
+    "type": "Music",
+    "status": "important",
+    "client_id": 5
+  },
+  {
+    "location": "514 Dickens Avenue Apt. 090, Lake Ariellemouth",
+    "date": "2020-04-24T01:56:53.718Z",
+    "dueDate": "2020-03-05T16:48:13.291Z",
+    "id": 41270,
+    "type": "Kids",
+    "status": "completed",
+    "client_id": 1,
+    "report": {
+      "comment": "Assumenda ipsum sint voluptas vel officia."
+    }
+  },
+  {
+    "location": "956 Ellen Forest Suite 945, North Lee",
+    "date": "2020-07-01T09:37:18.992Z",
+    "dueDate": "2020-03-15T05:23:37.852Z",
+    "id": 63042,
+    "type": "Shoes",
+    "status": "completed",
+    "client_id": 3,
+    "report": {
+      "comment": "Error aperiam impedit sunt."
+    }
+  },
+  {
+    "location": "153 Spencer Ranch Apt. 850, Heathcoteborough",
+    "date": "2020-04-17T05:27:12.476Z",
+    "dueDate": "2020-07-18T05:01:57.132Z",
+    "id": 88218,
+    "type": "Sports",
+    "status": "normal",
+    "client_id": 4
+  },
+  {
+    "location": "76808 Jaylin Mount Suite 668, South Robbie",
+    "date": "2020-08-28T05:53:14.884Z",
+    "dueDate": "2020-09-07T22:15:07.577Z",
+    "id": 32281,
+    "type": "Tools",
+    "status": "completed",
+    "client_id": 3,
+    "schedule": "2020-02-29T00:41:31.639Z",
+    "report": {
+      "comment": "Commodi mollitia earum veritatis et qui."
+    }
+  },
+  {
+    "location": "816 Katheryn Manors Apt. 133, Janetstad",
+    "date": "2020-03-01T12:59:11.323Z",
+    "dueDate": "2020-04-23T12:09:28.324Z",
+    "id": 62079,
+    "type": "Tools",
+    "status": "completed",
+    "client_id": 1,
+    "schedule": "2020-08-27T09:28:19.367Z",
+    "report": {
+      "comment": "Quia odit voluptatem perferendis et voluptatem eaque sint minima dolores."
+    }
+  },
+  {
+    "location": "83032 Ernser Knoll Suite 578, Alvahborough",
+    "date": "2020-01-14T04:10:26.659Z",
+    "dueDate": "2020-09-23T15:13:07.672Z",
+    "id": 27708,
+    "type": "Shoes",
+    "status": "urgent",
+    "client_id": 3,
+    "schedule": "2020-03-08T14:09:59.938Z",
+    "inspector": {
+      "first_name": "Arlene",
+      "last_name": "O'Conner",
+      "email": "Pauline.Turner@yahoo.com",
+      "id": 19
+    }
+  },
+  {
+    "location": "80560 Lennie Shoal Suite 873, East Robbstad",
+    "date": "2020-10-27T05:46:49.866Z",
+    "dueDate": "2020-01-31T04:40:52.067Z",
+    "id": 38390,
+    "type": "Health",
+    "status": "urgent",
+    "client_id": 2,
+    "schedule": "2020-08-09T02:49:10.278Z",
+    "inspector": {
+      "first_name": "Haley",
+      "last_name": "Roob",
+      "email": "Brycen_VonRueden@yahoo.com",
+      "id": 18
+    }
+  },
+  {
+    "location": "58846 Cummerata Ranch Suite 732, South Samantaport",
+    "date": "2019-11-17T19:41:26.285Z",
+    "dueDate": "2019-12-02T22:23:07.090Z",
+    "id": 97717,
+    "type": "Health",
+    "status": "urgent",
+    "client_id": 6,
+    "schedule": "2020-05-10T23:12:00.418Z",
+    "inspector": {
+      "first_name": "Haley",
+      "last_name": "Roob",
+      "email": "Brycen_VonRueden@yahoo.com",
+      "id": 18
+    }
+  },
+  {
+    "location": "685 Dakota Drive Apt. 481, Johnsstad",
+    "date": "2020-09-19T14:51:11.889Z",
+    "dueDate": "2019-11-20T19:32:18.119Z",
+    "id": 56821,
+    "type": "Music",
+    "status": "completed",
+    "client_id": 1,
+    "report": {
+      "comment": "Alias et omnis eum amet aut dolor."
+    }
+  },
+  {
+    "location": "693 Kilback Valleys Apt. 547, South Estrella",
+    "date": "2020-11-03T13:48:43.198Z",
+    "dueDate": "2020-10-13T15:02:37.724Z",
+    "id": 75067,
+    "type": "Automotive",
+    "status": "normal",
+    "client_id": 1
+  },
+  {
+    "location": "7348 Glover Via Suite 514, Lake Mikeside",
+    "date": "2020-08-23T01:24:18.142Z",
+    "dueDate": "2020-03-10T07:17:47.934Z",
+    "id": 42898,
+    "type": "Clothing",
+    "status": "completed",
+    "client_id": 6,
+    "report": {
+      "comment": "Totam omnis at ullam fugiat odio commodi sed."
+    }
+  },
+  {
+    "location": "1058 Maggie Fields Apt. 392, Lake Baron",
+    "date": "2020-02-26T05:37:42.771Z",
+    "dueDate": "2020-05-06T02:54:42.240Z",
+    "id": 52425,
+    "type": "Kids",
+    "status": "important",
+    "client_id": 1,
+    "schedule": "2020-09-03T03:48:03.368Z"
+  },
+  {
+    "location": "215 Lehner Cliffs Suite 510, Daniellamouth",
+    "date": "2020-02-11T00:37:44.499Z",
+    "dueDate": "2020-07-20T01:53:16.498Z",
+    "id": 11244,
+    "type": "Baby",
+    "status": "normal",
+    "client_id": 2,
+    "schedule": "2020-10-12T13:53:13.435Z"
+  },
+  {
+    "location": "36221 Williamson Springs Apt. 363, Port Adalbertoland",
+    "date": "2020-05-08T02:11:28.095Z",
+    "dueDate": "2020-04-27T02:20:05.985Z",
+    "id": 54330,
+    "type": "Automotive",
+    "status": "completed",
+    "client_id": 6,
+    "report": {
+      "comment": "Dolorem doloribus dolores aliquam aut."
+    }
+  },
+  {
+    "location": "645 Georgiana Extensions Apt. 257, East Timothytown",
+    "date": "2019-12-11T19:56:35.142Z",
+    "dueDate": "2019-12-06T00:12:42.699Z",
+    "id": 21670,
+    "type": "Clothing",
+    "status": "completed",
+    "client_id": 9,
+    "schedule": "2020-05-26T17:35:44.883Z",
+    "inspector": {
+      "first_name": "Ellen",
+      "last_name": "Lowe",
+      "email": "Murl73@hotmail.com",
+      "id": 12
+    },
+    "report": {
+      "comment": "Ducimus vel omnis occaecati qui facere in."
+    }
+  },
+  {
+    "location": "02385 McLaughlin Alley Apt. 277, Bradtkebury",
+    "date": "2020-05-21T14:05:20.764Z",
+    "dueDate": "2020-06-03T19:37:22.351Z",
+    "id": 61644,
+    "type": "Industrial",
+    "status": "completed",
+    "client_id": 8,
+    "schedule": "2020-10-06T18:06:44.757Z",
+    "report": {
+      "comment": "Excepturi eos quo nihil laudantium harum dignissimos."
+    }
+  },
+  {
+    "location": "328 Angelica Wall Suite 993, Port Bennett",
+    "date": "2020-10-04T10:47:25.566Z",
+    "dueDate": "2020-04-22T20:12:41.421Z",
+    "id": 55070,
+    "type": "Home",
+    "status": "important",
+    "client_id": 2,
+    "schedule": "2020-02-24T19:11:03.946Z",
+    "inspector": {
+      "first_name": "Julie",
+      "last_name": "Okuneva",
+      "email": "Torey.Bailey7@hotmail.com",
+      "id": 16
+    }
+  },
+  {
+    "location": "589 Armstrong Stream Suite 199, Harveyborough",
+    "date": "2019-12-08T17:51:53.956Z",
+    "dueDate": "2020-05-06T01:05:42.132Z",
+    "id": 12609,
+    "type": "Health",
+    "status": "important",
+    "client_id": 1
+  },
+  {
+    "location": "891 Witting Stream Apt. 227, Troyside",
+    "date": "2020-10-25T16:53:31.741Z",
+    "dueDate": "2020-04-16T15:12:26.163Z",
+    "id": 5302,
+    "type": "Clothing",
+    "status": "normal",
+    "client_id": 4,
+    "schedule": "2019-11-14T21:57:13.166Z",
+    "inspector": {
+      "first_name": "Ricardo",
+      "last_name": "Yost",
+      "email": "Jayme.Keebler88@yahoo.com",
+      "id": 15
+    }
+  },
+  {
+    "location": "24363 Nathanial Port Suite 856, New Aleneshire",
+    "date": "2020-10-20T20:48:27.598Z",
+    "dueDate": "2020-02-23T02:52:52.759Z",
+    "id": 13550,
+    "type": "Music",
+    "status": "important",
+    "client_id": 6
+  },
+  {
+    "location": "217 Marvin Dale Apt. 425, Medhurstside",
+    "date": "2020-03-23T05:12:09.982Z",
+    "dueDate": "2020-08-04T04:57:59.575Z",
+    "id": 84459,
+    "type": "Outdoors",
+    "status": "completed",
+    "client_id": 9,
+    "report": {
+      "comment": "Ea a quidem aut facilis veritatis consequatur enim."
+    }
+  },
+  {
+    "location": "631 Athena Freeway Suite 269, East Veronicaberg",
+    "date": "2020-04-08T10:22:20.226Z",
+    "dueDate": "2020-08-29T11:28:51.593Z",
+    "id": 77754,
+    "type": "Beauty",
+    "status": "urgent",
+    "client_id": 5,
+    "schedule": "2020-03-20T09:47:51.178Z",
+    "inspector": {
+      "first_name": "Soledad",
+      "last_name": "Turcotte",
+      "email": "Raoul.Sipes74@yahoo.com",
+      "id": 13
+    }
+  },
+  {
+    "location": "629 Stamm Island Apt. 529, DuBuqueborough",
+    "date": "2020-07-03T15:02:14.428Z",
+    "dueDate": "2020-05-15T22:41:47.608Z",
+    "id": 55979,
+    "type": "Clothing",
+    "status": "normal",
+    "client_id": 5
+  },
+  {
+    "location": "7389 Von Mountain Apt. 036, Boehmfurt",
+    "date": "2020-01-02T09:45:18.619Z",
+    "dueDate": "2020-04-19T10:48:55.617Z",
+    "id": 38505,
+    "type": "Shoes",
+    "status": "completed",
+    "client_id": 10,
+    "schedule": "2019-12-22T02:11:51.316Z",
+    "inspector": {
+      "first_name": "Arlene",
+      "last_name": "O'Conner",
+      "email": "Pauline.Turner@yahoo.com",
+      "id": 19
+    },
+    "report": {
+      "comment": "Corporis quae quisquam aut."
+    }
+  },
+  {
+    "location": "7672 Floyd Trace Suite 619, Port Rainafurt",
+    "date": "2020-04-04T00:48:24.864Z",
+    "dueDate": "2020-04-21T13:56:59.194Z",
+    "id": 22346,
+    "type": "Music",
+    "status": "important",
+    "client_id": 1,
+    "schedule": "2020-07-05T17:21:35.488Z",
+    "inspector": {
+      "first_name": "Francis",
+      "last_name": "Pagac",
+      "email": "Gunner_Schmitt@yahoo.com",
+      "id": 17
+    }
+  },
+  {
+    "location": "616 Margaretta Roads Suite 534, Ziememouth",
+    "date": "2020-08-24T21:08:34.774Z",
+    "dueDate": "2019-11-15T01:43:34.484Z",
+    "id": 58435,
+    "type": "Shoes",
+    "status": "normal",
+    "client_id": 6,
+    "schedule": "2020-02-05T17:47:54.768Z",
+    "inspector": {
+      "first_name": "Salvador",
+      "last_name": "Nitzsche",
+      "email": "Evert_Kihn78@yahoo.com",
+      "id": 20
+    }
+  },
+  {
+    "location": "24809 Streich Brook Suite 761, Danielview",
+    "date": "2020-09-22T07:44:03.309Z",
+    "dueDate": "2020-03-29T12:30:54.802Z",
+    "id": 23914,
+    "type": "Shoes",
+    "status": "normal",
+    "client_id": 9,
+    "schedule": "2020-09-04T21:04:18.206Z",
+    "inspector": {
+      "first_name": "Salvador",
+      "last_name": "Nitzsche",
+      "email": "Evert_Kihn78@yahoo.com",
+      "id": 20
+    }
+  },
+  {
+    "location": "054 Graham Springs Suite 224, Connellyton",
+    "date": "2019-11-08T14:02:12.654Z",
+    "dueDate": "2020-06-12T09:12:01.999Z",
+    "id": 95360,
+    "type": "Outdoors",
+    "status": "completed",
+    "client_id": 10,
+    "report": {
+      "comment": "Veritatis illo tempore voluptatem et alias nihil accusamus."
+    }
+  },
+  {
+    "location": "343 Audra Throughway Suite 408, Goyetteland",
+    "date": "2020-06-24T12:43:07.939Z",
+    "dueDate": "2020-08-15T13:23:03.253Z",
+    "id": 84447,
+    "type": "Tools",
+    "status": "important",
+    "client_id": 8,
+    "schedule": "2020-09-02T06:31:12.314Z"
+  },
+  {
+    "location": "96629 Deckow Point Apt. 200, Kailynview",
+    "date": "2020-06-22T05:51:52.349Z",
+    "dueDate": "2020-04-27T06:51:58.548Z",
+    "id": 57171,
+    "type": "Outdoors",
+    "status": "urgent",
+    "client_id": 3,
+    "schedule": "2020-05-25T04:18:39.895Z"
+  },
+  {
+    "location": "8938 Altenwerth Falls Apt. 591, South Kacie",
+    "date": "2020-03-29T12:46:16.387Z",
+    "dueDate": "2020-02-14T13:18:12.863Z",
+    "id": 13306,
+    "type": "Industrial",
+    "status": "normal",
+    "client_id": 8,
+    "schedule": "2020-03-25T21:48:32.639Z"
+  },
+  {
+    "location": "7813 Jamil Ways Suite 488, Fayefurt",
+    "date": "2020-06-10T13:32:48.057Z",
+    "dueDate": "2019-12-06T21:10:09.690Z",
+    "id": 27594,
+    "type": "Health",
+    "status": "completed",
+    "client_id": 2,
+    "report": {
+      "comment": "Ipsam aliquam est architecto vero vel culpa et facere."
+    }
+  },
+  {
+    "location": "8242 Leila Vista Suite 797, Dangelotown",
+    "date": "2019-12-18T21:35:45.402Z",
+    "dueDate": "2020-02-19T22:02:05.806Z",
+    "id": 54813,
+    "type": "Tools",
+    "status": "important",
+    "client_id": 10,
+    "schedule": "2020-02-18T14:13:42.494Z"
+  },
+  {
+    "location": "94579 Danyka Forks Suite 688, Port Erlingmouth",
+    "date": "2020-04-27T19:32:08.703Z",
+    "dueDate": "2020-03-04T05:16:36.761Z",
+    "id": 24512,
+    "type": "Automotive",
+    "status": "important",
+    "client_id": 9
+  },
+  {
+    "location": "164 Esther Ferry Apt. 641, Reynoldsside",
+    "date": "2020-10-12T15:37:58.107Z",
+    "dueDate": "2019-11-18T06:36:22.519Z",
+    "id": 56675,
+    "type": "Clothing",
+    "status": "urgent",
+    "client_id": 4
+  },
+  {
+    "location": "690 Klein Brooks Suite 692, Conroyville",
+    "date": "2019-12-18T17:05:00.824Z",
+    "dueDate": "2020-05-20T08:46:18.005Z",
+    "id": 83760,
+    "type": "Outdoors",
+    "status": "normal",
+    "client_id": 2,
+    "schedule": "2020-05-01T12:49:52.743Z"
+  },
+  {
+    "location": "3189 Leone Lane Apt. 147, New Pietrotown",
+    "date": "2019-11-05T08:44:39.614Z",
+    "dueDate": "2020-09-15T04:20:17.179Z",
+    "id": 28462,
+    "type": "Outdoors",
+    "status": "completed",
+    "client_id": 3,
+    "schedule": "2020-02-17T15:49:47.635Z",
+    "report": {
+      "comment": "Vero qui tempora."
+    }
+  },
+  {
+    "location": "12671 Alexandra Well Suite 978, Port Freidahaven",
+    "date": "2019-11-16T01:26:16.858Z",
+    "dueDate": "2020-10-17T07:35:36.861Z",
+    "id": 73677,
+    "type": "Health",
+    "status": "important",
+    "client_id": 8
+  },
+  {
+    "location": "71853 Sincere Flat Suite 047, Rodriguezborough",
+    "date": "2020-09-10T17:02:28.480Z",
+    "dueDate": "2020-10-04T23:34:04.987Z",
+    "id": 88210,
+    "type": "Outdoors",
+    "status": "urgent",
+    "client_id": 10,
+    "schedule": "2020-08-04T11:43:37.285Z"
   }
 ]

@@ -21,11 +21,16 @@ app.use((req, res, next) => {
 
 let accounts = [];
 let inspections = [];
+
 app.get('/inspections', (req, res) => {
+    const data = JSON.stringify(inspections, null, 2);
     fs.writeFile('data/inspections_list.json', data, console.log);
+    res.send(inspections);
 });
 
 app.get('/accounts', (req, res) => {
+    const data = JSON.stringify(accounts, null, 2);
+    fs.writeFile('data/users.json', data, console.log);
     res.send(accounts);
 });
 app.post('/login', login);
