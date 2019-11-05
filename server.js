@@ -1,9 +1,11 @@
 const {
     get_inspection,
-    get_list_type,
+    get_client_list_type,
+    get_inspector_list_type,
     post_inspection,
     login,
     signup,
+    scheduleInspection
 } = require("./handlers");
 
 const express = require('express');
@@ -33,10 +35,13 @@ app.get('/accounts', (req, res) => {
     fs.writeFile('data/users.json', data, console.log);
     res.send(accounts);
 });
+
 app.post('/login', login);
 app.post('/signup', signup);
 app.get('/inspection/:inspection_id', get_inspection);
 app.post('/inspection', post_inspection);
-app.get('/:role/:id/inspections-list/:list_type', get_list_type);
+app.get('/client/:id/inspections-list/:list_type', get_client_list_type);
+app.get('/inspector/:id/inspections-list/:list_type/:type', get_inspector_list_type);
+app.post('/scheduleInspection', scheduleInspection);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

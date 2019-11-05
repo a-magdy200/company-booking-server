@@ -102,34 +102,87 @@ const post_inspection = (req, res) => {
     });
 };
 
-const get_list_type = (req, res) => {
+const get_client_list_type = (req, res) => {
     fs.readFile('data/inspections_list.json', (err, data) => {
-        const { role, id, list_type } = req.params;
+        const { id, list_type } = req.params;
         const inspections = JSON.parse(data);
         const response = {
             success: true,
             inspections: []
         };
-        const role_key = role + '_id';
         const user_id = parseInt(id, 10);
 
         if (list_type === 'all') {
-            response.inspections = inspections.filter( inspection => inspection[role_key] === user_id );
+            response.inspections = inspections.filter( inspection => inspection.client_id === user_id );
         } else if (list_type === 'dashboard') {
             response.inspections = inspections.filter( inspection =>
-                inspection.status !== 'completed' && inspection[role_key] === user_id
+                inspection.status !== 'completed' && inspection.client_id === user_id
             ).splice(0, 10);
-        } else if (list_type === 'schedule') {
-            if (role !== 'client') {
-                response.inspections = inspections.filter (
-                    inspection => inspection.schedule && inspection[role_key] === user_id
-                );
-            }
         }
-
         res.send(response);
     });
 };
+const get_inspector_list_type = (req, res) => {
+    fs.readFile('data/inspections_list.json', (err, data) => {
+        const {type, id, list_type} = req.params;
+        const inspector_id = parseInt(id, 10);
+        const inspections = JSON.parse(data);
+        const response = {
+            success: true,
+            inspections: []
+        };
+
+        if (list_type === 'all') {
+            response.inspections = inspections.filter(
+                inspection =>
+                    inspection.inspector ?
+                        inspection.inspector.id === inspector_id :
+                        inspection.type === type
+            );
+        } else if (list_type === 'dashboard') {
+            response.inspections = inspections.filter(
+                inspection =>
+                    inspection.inspector ?
+                        inspection.status !== 'completed' && inspection.inspector.id === inspector_id :
+                        false
+            ).splice(0, 10);
+        } else if (list_type === 'schedule') {
+            response.inspections = inspections.filter (
+                inspection =>
+                    inspection.inspector ?
+                        inspection.schedule && inspection.inspector.id === inspector_id :
+                        false
+            );
+        }
+        res.send(response);
+    });
+};
+const scheduleInspection = (req, res) => {
+    const { id, schedule, inspector } = req.body;
+    fs.readFile('data/inspections_list.json', (err, data) => {
+        if (err) throw err;
+        const inspections = JSON.parse(data);
+        const inspectionID = parseInt(id, 10);
+        for (let i = 0; i < inspections.length; i++) {
+            if (inspections[i].id === inspectionID) {
+                inspections[i].schedule = schedule;
+                inspections[i].inspection = inspector;
+                break;
+            }
+        }
+        const writeData = JSON.stringify(inspections, null, 2);
+        fs.writeFile('data/inspections_list.json', writeData, err => {
+            if (err) throw err;
+            res.send({ success: true });
+        });
+    });
+};
 module.exports = {
-    login, post_inspection, get_list_type, get_inspection, signup
+    login,
+    post_inspection,
+    get_client_list_type,
+    get_inspection,
+    signup,
+    get_inspector_list_type,
+    scheduleInspection
 };
