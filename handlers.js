@@ -166,7 +166,7 @@ const scheduleInspection = (req, res) => {
         for (let i = 0; i < inspections.length; i++) {
             if (inspections[i].id === inspectionID) {
                 inspections[i].schedule = schedule;
-                inspections[i].inspection = inspector;
+                inspections[i].inspector = inspector;
                 break;
             }
         }
