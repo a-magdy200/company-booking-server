@@ -24,7 +24,9 @@ app.use((req, res, next) => {
 
 let accounts = [];
 let inspections = [];
-
+app.get('/', (req, res) => {
+    res.send('Working...');
+});
 app.get('/inspections', (req, res) => {
     const data = JSON.stringify(inspections, null, 2);
     fs.writeFile('data/inspections_list.json', data, console.log);
