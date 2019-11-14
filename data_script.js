@@ -82,23 +82,25 @@ for ( let i = 0; i < 100; i++ ) {
     inspections.push(inspection);
 }
 const requests = [];
+const status = ['dr rejected', 'no exam date', 'missed exam', 'overdue report'];
 for (let i = 0; i < 9; i++) {
     let request = {
+        id: i + 1,
         request_date: faker.date.past(),
         solicitor_client: faker.name.findName(),
         venue: faker.lorem.word(),
         start_date: faker.date.future(),
         end_date: faker.date.future(),
         type: faker.lorem.word(),
-        template_ref: faker.lorem.word(),
+        template_ref: Math.random() > 0.5 ? faker.lorem.word() : '',
         patient_name: faker.name.findName(),
         address: faker.address.streetAddress(true) + ", " + faker.address.city(),
         tel: faker.phone.phoneNumberFormat(),
-        notes: faker.lorem.sentence(),
-        action: ''
+        notes: faker.lorem.sentence()
     };
     if (Math.random() > 0.7) {
         request.status = status[Math.floor(Math.random() * status.length)];
     }
+    request.action = '';
     requests.push(request);
 }
