@@ -8,7 +8,8 @@ for (let i = 0; i < 10; i++) {
         first_name: faker.name.firstName(),
         last_name: faker.name.lastName(),
         id: i + 1,
-        role: 'client'
+        role: 'client',
+        profile_picture: faker.random.image()
     };
     accounts.push(account);
     account = {
@@ -18,7 +19,8 @@ for (let i = 0; i < 10; i++) {
         last_name: faker.name.lastName(),
         type: types[Math.floor(Math.random() * types.length)],
         id: i + 11,
-        role: 'inspector'
+        role: 'inspector',
+        profile_picture: faker.random.image()
     };
     accounts.push(account);
 }
@@ -28,7 +30,8 @@ accounts.push({
     first_name: faker.name.firstName(),
     last_name: faker.name.lastName(),
     id: 21,
-    role: 'admin'
+    role: 'admin',
+    profile_picture: faker.random.image()
 });
 const inspections = [];
 const status_array = ['normal', 'important', 'urgent', 'completed'];
