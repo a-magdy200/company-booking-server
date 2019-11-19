@@ -7,7 +7,9 @@ const {
     signup,
     scheduleInspection,
     submitReport,
-    get_admin_dashboard
+    get_admin_dashboard,
+    checkEmail,
+    checkPassword,
 } = require("./handlers");
 
 const express = require('express');
@@ -40,8 +42,8 @@ app.get('/accounts', (req, res) => {
     fs.writeFile('data/users.json', data, console.log);
     res.send(accounts);
 });
-
-app.post('/login', login);
+app.post('/check-email', checkEmail);
+app.post('/check-password', checkPassword());
 app.post('/signup', signup);
 app.get('/inspection/:inspection_id', get_inspection);
 app.post('/inspection', post_inspection);

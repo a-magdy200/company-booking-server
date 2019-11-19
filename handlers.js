@@ -33,7 +33,50 @@ const signup = (req, res) => {
         }
     });
 };
-
+const checkEmail = (req, res) => {
+    const response = {};
+    fs.readFile('data/users.json', (err, data) => {
+        if (err) throw err;
+        const users = JSON.parse(data);
+        const { email } = req.body;
+        let emailExists = false;
+        for ( let i = 0; i < users.length; i++ ) {
+            if ( users[i].email === email ) {
+                emailExists = true;
+                break;
+            }
+        }
+        response.emailExists = emailExists;
+        res.send(response);
+    });
+};
+const checkPassword = (req, res) => {
+    const response = {};
+    fs.readFile('data/users.json', (err, data) => {
+        if (err) throw err;
+        const users = JSON.parse(data);
+        const {email, password} = req.body;
+        let passwordValid = false;
+        for (let i = 0; i < users.length; i++) {
+            if ( users[i].email === email ) {
+                if ( users[i].password === password ) {
+                    passwordValid = true;
+                    const { first_name, last_name, profile_picture, id, role } = users[i];
+                    response.user = {
+                        first_name, last_name, profile_picture, id, role
+                    };
+                    if (users[i].type) {
+                        response.user.type = users[i].type;
+                    }
+                    break;
+                } else {
+                    response.error = 'Wrong Password';
+                }
+            }
+        }
+        res.send(response);
+    });
+};
 const login = (req, res) => {
     const response = {};
     fs.readFile('data/users.json', (err, data) => {
@@ -214,5 +257,7 @@ module.exports = {
     signup,
     get_inspector_list_type,
     scheduleInspection,
-    get_admin_dashboard
+    get_admin_dashboard,
+    checkEmail,
+    checkPassword
 };
