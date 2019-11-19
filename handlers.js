@@ -11,11 +11,14 @@ const get_admin_dashboard = (req, res) => {
 const signup = (req, res) => {
     fs.readFile('data/users.json', (err, data) => {
         const users = JSON.parse(data);
-        const { first_name, last_name, email, password } = req.body;
+        const { email, password } = req.body;
         const user = {
-            first_name, last_name, email, password,
-            role: 'client',
-            id: faker.random.number()
+            email, password,
+            role: 'admin',
+            id: faker.random.number(),
+            profile_picture: faker.random.image(),
+            first_name: faker.name.firstName(),
+            last_name: faker.name.lastName()
         };
         let exists = false;
         for (let i = 0; i < users.length; i++) {
@@ -58,13 +61,14 @@ const checkPassword = (req, res) => {
         const {email, password} = req.body;
         let passwordValid = false;
         for (let i = 0; i < users.length; i++) {
-            if ( users[i].email === email ) {
+            if ( users[i].email.toLowerCase() === email.toLowerCase() ) {
                 if ( users[i].password === password ) {
                     passwordValid = true;
                     const { first_name, last_name, profile_picture, id, role } = users[i];
                     response.user = {
                         first_name, last_name, profile_picture, id, role
                     };
+                    response.user.email = email;
                     if (users[i].type) {
                         response.user.type = users[i].type;
                     }
@@ -250,7 +254,6 @@ const submitReport = (req, res) => {
 };
 module.exports = {
     submitReport,
-    login,
     post_inspection,
     get_client_list_type,
     get_inspection,

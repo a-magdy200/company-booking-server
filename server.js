@@ -43,7 +43,7 @@ app.get('/accounts', (req, res) => {
     res.send(accounts);
 });
 app.post('/check-email', checkEmail);
-app.post('/check-password', checkPassword());
+app.post('/check-password', checkPassword);
 app.post('/signup', signup);
 app.get('/inspection/:inspection_id', get_inspection);
 app.post('/inspection', post_inspection);
